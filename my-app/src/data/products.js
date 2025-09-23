@@ -12,7 +12,7 @@ export const products = [
         { type: 'image', src: '/cabinMaterials/P7.jpg' },
         { type: 'image', src: '/cabinMaterials/P7.1.jpg' },
         { type: 'image', src: '/cabinMaterials/P7.2.jpg' },
-        { type: 'image', src: '/cabinMaterials/P7.3.jpg' }
+        { type: 'image', src: '/cabinMaterials/P7.3.jpg' },
         { type: 'image', src: '/cabinMaterials/P7.4.jpg' }
       ],
     },
