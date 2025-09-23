@@ -13,12 +13,13 @@ export const products = [
         { type: 'image', src: '/cabinMaterials/P7.1.jpg' },
         { type: 'image', src: '/cabinMaterials/P7.2.jpg' },
         { type: 'image', src: '/cabinMaterials/P7.3.jpg' }
+        { type: 'image', src: '/cabinMaterials/P7.4.jpg' }
       ],
     },
     colors: [
       { name: 'Black & White', hex: '#5D6D7E' },
     ],
-    sizes: [7, 8, 9, 10],
+    sizes: [6, 7, 8, 9, 10],
   },
   {
     id: 'shoe-2',
@@ -49,7 +50,7 @@ export const products = [
       { name: 'Pure White', hex: '#FFFFFF' },
       { name: 'Pure Black', hex: '#17202A' },
     ],
-    sizes: [7, 8, 9, 10],
+    sizes: [6, 7, 8, 9, 10],
   },
   {
     id: 'shoe-3',
@@ -82,7 +83,7 @@ export const products = [
       { name: 'Classic Blue', hex: '#212121' },
       { name: 'Classic Red', hex: '#34495E' },
     ],
-    sizes: [7, 8, 9, 10],
+    sizes: [6, 7, 8, 9, 10],
   },
   {
     id: 'shoe-4',
@@ -103,7 +104,7 @@ export const products = [
     colors: [
       { name: 'Navy Blue', hex: '#1F3A3D' },
     ],
-    sizes: [7, 8, 9, 10],
+    sizes: [6, 7, 8, 9, 10],
   },
   {
     id: 'shoe-5',
@@ -124,7 +125,7 @@ export const products = [
     colors: [
       { name: 'Boston White', hex: '#85C1E9' },
     ],
-    sizes: [7, 8, 9, 10],
+    sizes: [6, 7, 8, 9, 10],
   },
   {
     id: 'shoe-6',
@@ -144,7 +145,7 @@ export const products = [
     colors: [
       { name: 'Grey Black', hex: '#39FF14' },
     ],
-    sizes: [7, 8, 9, 10],
+    sizes: [6, 7, 8, 9, 10],
   },
   {
     id: 'shoe-7',
@@ -179,7 +180,7 @@ export const products = [
       { name: 'White Trefoil', hex: '#39FF14' },
       { name: 'Black Trefoil', hex: '#39FF14' },
     ],
-    sizes: [7, 8, 9, 10],
+    sizes: [6, 7, 8, 9, 10],
   },
   {
     id: 'shoe-8',
@@ -199,7 +200,7 @@ export const products = [
     colors: [
       { name: 'Uptempo White', hex: '#39FF14' },
     ],
-    sizes: [7, 8, 9, 10],
+    sizes: [6, 7, 8, 9, 10],
   },
   {
     id: 'shoe-9',
@@ -230,7 +231,7 @@ export const products = [
       { name: 'Yellow', hex: '#39FF14' },
       { name: 'White', hex: '#39FF14' },
     ],
-    sizes: [7, 8, 9, 10],
+    sizes: [6, 7, 8, 9, 10],
   },
   {
     id: 'shoe-10',
@@ -251,7 +252,7 @@ export const products = [
     colors: [
       { name: 'Armour Grey', hex: '#39FF14' },
     ],
-    sizes: [7, 8, 9, 10],
+    sizes: [6, 7, 8, 9, 10],
   },
   {
     id: 'shoe-11',
@@ -272,7 +273,7 @@ export const products = [
     colors: [
       { name: 'Metallic Blue', hex: '#39FF14' },
     ],
-    sizes: [7, 8, 9, 10],
+    sizes: [6, 7, 8, 9, 10],
   },
   {
     id: 'shoe-12',
@@ -292,7 +293,7 @@ export const products = [
     colors: [
       { name: 'Orange grey', hex: '#39FF14' },
     ],
-    sizes: [7, 8, 9, 10],
+    sizes: [6, 7, 8, 9, 10],
   },
   {
     id: 'shoe-13',
@@ -324,7 +325,7 @@ export const products = [
       { name: 'Black Yellow', hex: '#39FF14' },
       { name: 'Black White', hex: '#39FF14' },
     ],
-    sizes: [7, 8, 9, 10],
+    sizes: [6, 7, 8, 9, 10],
   },
   {
     id: 'shoe-14',
@@ -356,7 +357,7 @@ export const products = [
       { name: 'Blue Red', hex: '#39FF14' },
       { name: 'Black Red', hex: '#39FF14' },
     ],
-    sizes: [7, 8, 9, 10],
+    sizes: [6, 7, 8, 9, 10],
   },
   {
     id: 'shoe-15',
@@ -387,7 +388,7 @@ export const products = [
       { name: 'Blue White', hex: '#39FF14' },
       { name: 'Full White', hex: '#39FF14' },
     ],
-    sizes: [7, 8, 9, 10],
+    sizes: [6, 7, 8, 9, 10],
   },
   {
     id: 'shoe-16',
@@ -407,7 +408,7 @@ export const products = [
     colors: [
       { name: 'Metallic Black', hex: '#39FF14' },
     ],
-    sizes: [7, 8, 9, 10],
+    sizes: [6, 7, 8, 9, 10],
   },
   {
     id: 'shoe-17',
@@ -428,7 +429,7 @@ export const products = [
     colors: [
       { name: 'Metallic White', hex: '#39FF14' },
     ],
-    sizes: [7, 8, 9, 10],
+    sizes: [6, 7, 8, 9, 10],
   },
   {
     id: 'shoe-18',
@@ -449,7 +450,7 @@ export const products = [
     colors: [
       { name: 'Black', hex: '#39FF14' },
     ],
-    sizes: [7, 8, 9, 10],
+    sizes: [6, 7, 8, 9, 10],
   },
   {
     id: 'shoe-19',
@@ -472,7 +473,7 @@ export const products = [
     colors: [
       { name: 'Feather White', hex: '#39FF14' },
     ],
-    sizes: [7, 8, 9, 10],
+    sizes: [6, 7, 8, 9, 10],
   },
   {
     id: 'shoe-20',
@@ -493,7 +494,7 @@ export const products = [
     colors: [
       { name: 'Red Black', hex: '#39FF14' },
     ],
-    sizes: [7, 8, 9, 10],
+    sizes: [6, 7, 8, 9, 10],
   },
   {
     id: 'shoe-21',
@@ -514,7 +515,7 @@ export const products = [
     colors: [
       { name: 'Gel White', hex: '#39FF14' },
     ],
-    sizes: [7, 8, 9, 10],
+    sizes: [6, 7, 8, 9, 10],
   },
   {
     id: 'shoe-22',
@@ -535,7 +536,7 @@ export const products = [
     colors: [
       { name: 'Fury Red', hex: '#FF5733' },
     ],
-    sizes: [7, 8, 9, 10],
+    sizes: [6, 7, 8, 9, 10],
   },
   {
     id: 'shoe-23',
@@ -556,7 +557,7 @@ export const products = [
     colors: [
       { name: 'Venture Grey', hex: '#39FF14' },
     ],
-    sizes: [7, 8, 9, 10],
+    sizes: [6, 7, 8, 9, 10],
   },
   {
     id: 'shoe-24',
@@ -576,7 +577,7 @@ export const products = [
     colors: [
       { name: 'Neon White', hex: '#39FF14' },
     ],
-    sizes: [7, 8, 9, 10],
+    sizes: [6, 7, 8, 9, 10],
   },
   {
     id: 'shoe-25',
@@ -597,7 +598,7 @@ export const products = [
     colors: [
       { name: 'Matt Black', hex: '#000000' },
     ],
-    sizes: [7, 8, 9, 10],
+    sizes: [6, 7, 8, 9, 10],
   },
   {
     id: 'shoe-26',
@@ -618,7 +619,7 @@ export const products = [
     colors: [
       { name: 'Welco Purple', hex: '#6A0DAD' },
     ],
-    sizes: [7, 8, 9, 10],
+    sizes: [6, 7, 8, 9, 10],
   },
 ];
 
