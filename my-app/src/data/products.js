@@ -5,7 +5,7 @@ export const products = [
     name: 'Onitsuka Tiger',
     price: 729,
     description:
-  "Experience the perfect blend of style and performance with Onitsuka Tiger shoes. These iconic sneakers, known for their signature tiger stripes, combine heritage-inspired design with modern comfort, making them ideal for casual wear, gym sessions, or urban adventures. Crafted with premium materials, they offer lightweight cushioning, flexibility, and breathability for all-day comfort.\n\n Designed for men, women, and young adults, Onitsuka Tiger sneakers deliver superior traction and durability on multiple surfaces. Their versatile design pairs effortlessly with streetwear, athleisure, and casual outfits, making them a must-have for anyone seeking trendy, high-quality sneakers that merge fashion with functionality.",
+      "Experience the perfect blend of style and performance with Onitsuka Tiger shoes. These iconic sneakers, known for their signature tiger stripes, combine heritage-inspired design with modern comfort, making them ideal for casual wear, gym sessions, or urban adventures. Crafted with premium materials, they offer lightweight cushioning, flexibility, and breathability for all-day comfort.\n\n Designed for men, women, and young adults, Onitsuka Tiger sneakers deliver superior traction and durability on multiple surfaces. Their versatile design pairs effortlessly with streetwear, athleisure, and casual outfits, making them a must-have for anyone seeking trendy, high-quality sneakers that merge fashion with functionality.",
 
     media: {
       'Black & White': [
@@ -17,16 +17,15 @@ export const products = [
       ],
     },
     colors: [
-      { name: 'Black & White', hex: '#5D6D7E' },
+      { name: 'Black & White', hex: '#5D6D7E', sizes: [6, 7, 8, 9, 10], },
     ],
-    sizes: [6, 7, 8, 9, 10],
   },
   {
     id: 'shoe-2',
     name: 'Slip-On Loafer',
     price: 600,
     description: "Step into effortless style and comfort with these Pure White Slip-On Loafers. Designed for modern individuals who value convenience and elegance, these loafers are perfect for casual outings, office wear, or weekend getaways. The sleek all-white design adds a touch of sophistication to any outfit, while the slip-on style ensures easy wear and a snug, comfortable fit throughout the day.  \n\nCrafted with premium materials, these loafers provide lightweight cushioning, durability, and breathability for all-day comfort. Their versatile design pairs seamlessly with jeans, chinos, or shorts, making them a must-have for men and women seeking stylish, practical footwear that blends fashion with functionality."
-,
+    ,
     media: {
       'Pure White': [
         { type: 'image', src: '/cabinMaterials/P1.jpg' },
@@ -47,8 +46,8 @@ export const products = [
       ],
     },
     colors: [
-      { name: 'Pure White', hex: '#FFFFFF',sizes: [6, 7, 8, 9, 10], },
-      { name: 'Pure Black', hex: '#17202A',sizes: [6, 7, 8, 9, 10], },
+      { name: 'Pure White', hex: '#FFFFFF', sizes: [6, 7, 8, 9, 10], },
+      { name: 'Pure Black', hex: '#17202A', sizes: [6, 7, 8, 9, 10], },
     ],
   },
   {
@@ -56,7 +55,7 @@ export const products = [
     name: 'Puma Ferrari',
     price: 699,
     description: "Unleash speed and style with the Puma Ferrari Edition Shoes, crafted for fans of performance and luxury alike. Inspired by the iconic Ferrari racing legacy, these sneakers combine cutting-edge Puma technology with a sleek, automotive-inspired design. Perfect for casual wear, track days, or adding a sporty edge to your everyday outfit, these shoes bring the thrill of the racetrack to your feet.\n\nEngineered with premium materials, the Puma Ferrari Edition Shoes offer exceptional comfort, lightweight support, and durable traction for all-day wear. With their bold red accents, Ferrari branding, and high-quality craftsmanship, these sneakers are a must-have for motorsport enthusiasts and style-conscious individuals seeking statement footwear that merges speed, precision, and fashion."
-,
+    ,
     media: {
       'Classic Blue': [
         { type: 'image', src: '/cabinMaterials/P2.jpg' },
@@ -79,9 +78,11 @@ export const products = [
       ],
     },
     colors: [
-      { name: 'Classic Blue', hex: '#212121',sizes: [6, 7, 8, 9, 10],
-    soldSizes: [6] },
-      { name: 'Classic Red', hex: '#34495E',sizes: [6, 7, 8, 9, 10], },
+      {
+        name: 'Classic Blue', hex: '#212121', sizes: [6, 7, 8, 9, 10],
+        soldSizes: [6]
+      },
+      { name: 'Classic Red', hex: '#34495E', sizes: [6, 7, 8, 9, 10], },
     ],
   },
   {
@@ -89,7 +90,7 @@ export const products = [
     name: 'Macpro',
     price: 649,
     description: "Elevate your running experience with Macpro Issi Running Shoes, designed for athletes and fitness enthusiasts who demand performance and style. These sneakers feature a sleek, modern design with a breathable mesh upper that ensures your feet stay cool and comfortable during long runs or intense workouts. The lightweight construction and responsive cushioning make every stride smooth and effortless.\n\nEngineered with high-grip rubber outsoles and ergonomic support, Macpro Issi Running Shoes deliver excellent traction and stability on various surfaces. Perfect for jogging, gym sessions, or casual wear, these versatile running shoes combine durability, comfort, and a sporty aesthetic, making them a must-have addition to any active lifestyle wardrobe."
-,
+    ,
     media: {
       'Navy Blue': [
         { type: 'image', src: '/cabinMaterials/P3.jpg' },
@@ -101,16 +102,15 @@ export const products = [
       ],
     },
     colors: [
-      { name: 'Navy Blue', hex: '#1F3A3D' },
+      { name: 'Navy Blue', hex: '#1F3A3D', sizes: [6, 7, 8, 9, 10], },
     ],
-    sizes: [6, 7, 8, 9, 10],
   },
   {
     id: 'shoe-5',
     name: 'Boston',
     price: 630,
     description: "Step out in timeless elegance with Full White Boston Casual Shoes, designed for those who appreciate minimalistic style and all-day comfort. The clean all-white design effortlessly complements any outfit, making these shoes perfect for casual outings, office wear, or weekend getaways. Their slip-on design ensures convenience, while providing a snug and comfortable fit for every occasion.\n\nCrafted with premium materials, Full White Boston Casual Shoes offer lightweight cushioning, breathability, and long-lasting durability. The versatile design pairs seamlessly with jeans, chinos, or shorts, making them an essential addition to any wardrobe. Elevate your everyday style with these classic, comfortable, and fashionable sneakers that combine simplicity with sophistication."
-,
+    ,
     media: {
       'Boston White': [
         { type: 'image', src: '/cabinMaterials/P4.jpg' },
@@ -122,17 +122,19 @@ export const products = [
       ],
     },
     colors: [
-      { name: 'Boston White', hex: '#85C1E9' },
+      {
+        name: 'Boston White', hex: '#85C1E9',
+        sizes: [6, 7, 8, 9, 10],
+        soldSizes: [7, 8]
+      },
     ],
-    sizes: [6, 7, 8, 9, 10],
-    soldSizes: [7, 8]
   },
   {
     id: 'shoe-6',
     name: 'Reebok Vector',
     price: 649,
     description: "Step into modern style and superior comfort with Reebok Vector Design Grey Black Shoes. Featuring a sleek grey and black colorway, these sneakers are perfect for casual wear, gym sessions, or urban adventures. The contemporary design highlights Reebok’s commitment to quality and performance, making them a versatile choice for men and women who value both fashion and functionality.  \n\nCrafted with durable materials, Reebok Vector Design Shoes provide lightweight cushioning, excellent support, and reliable traction on multiple surfaces. Their breathable upper ensures all-day comfort, while the stylish design pairs effortlessly with jeans, joggers, or casual outfits. Upgrade your footwear collection with these versatile and trendy sneakers that combine performance, comfort, and street-smart style."
-,
+    ,
     media: {
       'Grey Black': [
         { type: 'image', src: '/cabinMaterials/P5.jpg' },
@@ -143,17 +145,17 @@ export const products = [
       ],
     },
     colors: [
-      { name: 'Grey Black', hex: '#39FF14' },
-    ],
+      { name: 'Grey Black', hex: '#39FF14',
     sizes: [6, 7, 8, 9, 10],
-    soldSizes: [7]
+    soldSizes: [7] },
+    ],
   },
   {
     id: 'shoe-7',
     name: 'Adidas Forum',
     price: 699,
     description: "Elevate your sneaker game with the Adidas Forum Sneakers, featuring the iconic three black stripes and a bold black Trefoil logo. Designed for those who appreciate classic style with a modern twist, these sneakers combine streetwear appeal with timeless athletic heritage. Perfect for casual outings, gym sessions, or adding a sporty edge to your everyday look.\n\nCrafted with premium materials, Adidas Forum Sneakers offer exceptional comfort, durability, and support. The cushioned midsole and sturdy outsole ensure all-day wearability, while the sleek black design pairs effortlessly with jeans, joggers, or shorts. Step confidently with these versatile sneakers that merge style, performance, and iconic Adidas heritage into one must-have footwear essential."
-,
+    ,
     media: {
       'White Trefoil': [
         { type: 'image', src: '/cabinMaterials/P6.jpg' },
@@ -178,8 +180,8 @@ export const products = [
       ],
     },
     colors: [
-      { name: 'White Trefoil', hex: '#39FF14',sizes: [6, 7, 8, 9, 10],soldSizes: [7]},
-      { name: 'Black Trefoil', hex: '#39FF14',sizes: [6, 7, 8, 9, 10]},
+      { name: 'White Trefoil', hex: '#39FF14', sizes: [6, 7, 8, 9, 10], soldSizes: [7] },
+      { name: 'Black Trefoil', hex: '#39FF14', sizes: [6, 7, 8, 9, 10] },
     ],
   },
   {
@@ -198,17 +200,17 @@ export const products = [
       ],
     },
     colors: [
-      { name: 'Uptempo White', hex: '#39FF14' },
-    ],
+      { name: 'Uptempo White', hex: '#39FF14',
     sizes: [6, 7, 8, 9, 10],
-    soldSizes: [8]
+    soldSizes: [8] },
+    ],
   },
   {
     id: 'shoe-9',
     name: 'Dewk Berries Auto Lace-Up',
     price: 699,
     description: "Elevate your sneaker game with the Adidas Forum Sneakers, featuring the iconic three black stripes and a bold black Trefoil logo. Designed for those who appreciate classic style with a modern twist, these sneakers combine streetwear appeal with timeless athletic heritage. Perfect for casual outings, gym sessions, or adding a sporty edge to your everyday look.\n\nCrafted with premium materials, Adidas Forum Sneakers offer exceptional comfort, durability, and support. The cushioned midsole and sturdy outsole ensure all-day wearability, while the sleek black design pairs effortlessly with jeans, joggers, or shorts. Step confidently with these versatile sneakers that merge style, performance, and iconic Adidas heritage into one must-have footwear essential."
-,
+    ,
     media: {
       'Yellow': [
         { type: 'image', src: '/cabinMaterials/P18.jpg' },
@@ -229,9 +231,11 @@ export const products = [
       ],
     },
     colors: [
-      { name: 'Yellow', hex: '#39FF14',sizes: [6, 7, 8, 9, 10], },
-      { name: 'White', hex: '#39FF14',sizes: [6, 7, 8, 9, 10],
-    soldSizes: [7, 8] },
+      { name: 'Yellow', hex: '#39FF14', sizes: [6, 7, 8, 9, 10], },
+      {
+        name: 'White', hex: '#39FF14', sizes: [6, 7, 8, 9, 10],
+        soldSizes: [7, 8]
+      },
     ],
   },
   {
@@ -251,10 +255,10 @@ export const products = [
       ],
     },
     colors: [
-      { name: 'Armour Grey', hex: '#39FF14' },
-    ],
+      { name: 'Armour Grey', hex: '#39FF14',
     sizes: [6, 7, 8, 9, 10],
-    soldSizes: [8]
+    soldSizes: [8]},
+    ],
   },
   {
     id: 'shoe-11',
@@ -273,9 +277,9 @@ export const products = [
       ],
     },
     colors: [
-      { name: 'Metallic Blue', hex: '#39FF14' },
+      { name: 'Metallic Blue', hex: '#39FF14',
+    sizes: [6, 7, 8, 9, 10], },
     ],
-    sizes: [6, 7, 8, 9, 10],
   },
   {
     id: 'shoe-12',
@@ -293,9 +297,9 @@ export const products = [
       ],
     },
     colors: [
-      { name: 'Orange grey', hex: '#39FF14' },
+      { name: 'Orange grey', hex: '#39FF14',
+    sizes: [6, 7, 8, 9, 10], },
     ],
-    sizes: [6, 7, 8, 9, 10],
   },
   {
     id: 'shoe-13',
@@ -324,8 +328,8 @@ export const products = [
       ],
     },
     colors: [
-      { name: 'Black Yellow', hex: '#39FF14',sizes: [6, 7, 8, 9, 10], },
-      { name: 'Black White', hex: '#39FF14',sizes: [6, 7, 8, 9, 10], },
+      { name: 'Black Yellow', hex: '#39FF14', sizes: [6, 7, 8, 9, 10], },
+      { name: 'Black White', hex: '#39FF14', sizes: [6, 7, 8, 9, 10], },
     ],
   },
   {
@@ -355,8 +359,8 @@ export const products = [
       ],
     },
     colors: [
-      { name: 'Blue Red', hex: '#39FF14',sizes: [6, 7, 8, 9, 10], },
-      { name: 'Black Red', hex: '#39FF14',sizes: [6, 7, 8, 9, 10], },
+      { name: 'Blue Red', hex: '#39FF14', sizes: [6, 7, 8, 9, 10], },
+      { name: 'Black Red', hex: '#39FF14', sizes: [6, 7, 8, 9, 10], },
     ],
   },
   {
@@ -385,8 +389,8 @@ export const products = [
       ],
     },
     colors: [
-      { name: 'Blue White', hex: '#39FF14',sizes: [6, 7, 8, 9, 10], },
-      { name: 'Full White', hex: '#39FF14',sizes: [6, 7, 8, 9, 10], },
+      { name: 'Blue White', hex: '#39FF14', sizes: [6, 7, 8, 9, 10], },
+      { name: 'Full White', hex: '#39FF14', sizes: [6, 7, 8, 9, 10], },
     ],
   },
   {
@@ -405,10 +409,10 @@ export const products = [
       ],
     },
     colors: [
-      { name: 'Metallic Black', hex: '#39FF14' },
-    ],
+      { name: 'Metallic Black', hex: '#39FF14',
     sizes: [6, 7, 8, 9, 10],
-    soldSizes: [8]
+    soldSizes: [8], },
+    ],
   },
   {
     id: 'shoe-17',
@@ -427,9 +431,9 @@ export const products = [
       ],
     },
     colors: [
-      { name: 'Metallic White', hex: '#39FF14' },
+      { name: 'Metallic White', hex: '#39FF14',
+    sizes: [6, 7, 8, 9, 10], },
     ],
-    sizes: [6, 7, 8, 9, 10],
   },
   {
     id: 'shoe-18',
@@ -448,9 +452,9 @@ export const products = [
       ],
     },
     colors: [
-      { name: 'Black', hex: '#39FF14' },
+      { name: 'Black', hex: '#39FF14',
+    sizes: [6, 7, 8, 9, 10], },
     ],
-    sizes: [6, 7, 8, 9, 10],
   },
   {
     id: 'shoe-19',
@@ -471,9 +475,9 @@ export const products = [
       ],
     },
     colors: [
-      { name: 'Feather White', hex: '#39FF14' },
+      { name: 'Feather White', hex: '#39FF14',
+    sizes: [6, 7, 8, 9, 10], },
     ],
-    sizes: [6, 7, 8, 9, 10],
   },
   {
     id: 'shoe-20',
@@ -492,10 +496,10 @@ export const products = [
       ],
     },
     colors: [
-      { name: 'Red Black', hex: '#39FF14' },
-    ],
+      { name: 'Red Black', hex: '#39FF14',
     sizes: [6, 7, 8, 9, 10],
-    soldSizes: [7]
+    soldSizes: [7] },
+    ],
   },
   {
     id: 'shoe-21',
@@ -514,10 +518,10 @@ export const products = [
       ],
     },
     colors: [
-      { name: 'Gel White', hex: '#39FF14' },
-    ],
+      { name: 'Gel White', hex: '#39FF14',
     sizes: [6, 7, 8, 9, 10],
-    soldSizes: [9]
+    soldSizes: [9] },
+    ],
   },
   {
     id: 'shoe-22',
@@ -536,9 +540,9 @@ export const products = [
       ],
     },
     colors: [
-      { name: 'Fury Red', hex: '#FF5733' },
+      { name: 'Fury Red', hex: '#FF5733',
+    sizes: [6, 7, 8, 9, 10], },
     ],
-    sizes: [6, 7, 8, 9, 10],
   },
   {
     id: 'shoe-23',
@@ -557,9 +561,9 @@ export const products = [
       ],
     },
     colors: [
-      { name: 'Venture Grey', hex: '#39FF14' },
+      { name: 'Venture Grey', hex: '#39FF14',
+    sizes: [6, 7, 8, 9, 10], },
     ],
-    sizes: [6, 7, 8, 9, 10],
   },
   {
     id: 'shoe-24',
@@ -577,10 +581,10 @@ export const products = [
       ],
     },
     colors: [
-      { name: 'Neon White', hex: '#39FF14' },
-    ],
+      { name: 'Neon White', hex: '#39FF14',
     sizes: [6, 7, 8, 9, 10],
-    soldSizes: [7, 10]
+    soldSizes: [7, 10] },
+    ],
   },
   {
     id: 'shoe-25',
@@ -599,9 +603,9 @@ export const products = [
       ],
     },
     colors: [
-      { name: 'Matt Black', hex: '#000000' },
+      { name: 'Matt Black', hex: '#000000',
+    sizes: [6, 7, 8, 9, 10], },
     ],
-    sizes: [6, 7, 8, 9, 10],
   },
   {
     id: 'shoe-26',
@@ -620,10 +624,10 @@ export const products = [
       ],
     },
     colors: [
-      { name: 'Welco Purple', hex: '#6A0DAD' },
-    ],
+      { name: 'Welco Purple', hex: '#6A0DAD',
     sizes: [6, 7, 8, 9, 10],
-    soldSizes: [7, 9]
+    soldSizes: [7, 9] },
+    ],
   },
 ];
 
