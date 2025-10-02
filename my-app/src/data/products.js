@@ -84,6 +84,7 @@ export const products = [
       { name: 'Classic Red', hex: '#34495E' },
     ],
     sizes: [6, 7, 8, 9, 10],
+    soldSizes: [6]
   },
   {
     id: 'shoe-4',
@@ -126,6 +127,7 @@ export const products = [
       { name: 'Boston White', hex: '#85C1E9' },
     ],
     sizes: [6, 7, 8, 9, 10],
+    soldSizes: [7, 8]
   },
   {
     id: 'shoe-6',
@@ -146,6 +148,7 @@ export const products = [
       { name: 'Grey Black', hex: '#39FF14' },
     ],
     sizes: [6, 7, 8, 9, 10],
+    soldSizes: [7]
   },
   {
     id: 'shoe-7',
@@ -181,6 +184,7 @@ export const products = [
       { name: 'Black Trefoil', hex: '#39FF14' },
     ],
     sizes: [6, 7, 8, 9, 10],
+    soldSizes: [7]
   },
   {
     id: 'shoe-8',
@@ -201,6 +205,7 @@ export const products = [
       { name: 'Uptempo White', hex: '#39FF14' },
     ],
     sizes: [6, 7, 8, 9, 10],
+    soldSizes: [8]
   },
   {
     id: 'shoe-9',
@@ -232,6 +237,7 @@ export const products = [
       { name: 'White', hex: '#39FF14' },
     ],
     sizes: [6, 7, 8, 9, 10],
+    soldSizes: [7, 8]
   },
   {
     id: 'shoe-10',
@@ -253,6 +259,7 @@ export const products = [
       { name: 'Armour Grey', hex: '#39FF14' },
     ],
     sizes: [6, 7, 8, 9, 10],
+    soldSizes: [8]
   },
   {
     id: 'shoe-11',
@@ -409,6 +416,7 @@ export const products = [
       { name: 'Metallic Black', hex: '#39FF14' },
     ],
     sizes: [6, 7, 8, 9, 10],
+    soldSizes: [8]
   },
   {
     id: 'shoe-17',
@@ -495,6 +503,7 @@ export const products = [
       { name: 'Red Black', hex: '#39FF14' },
     ],
     sizes: [6, 7, 8, 9, 10],
+    soldSizes: [7]
   },
   {
     id: 'shoe-21',
@@ -516,6 +525,7 @@ export const products = [
       { name: 'Gel White', hex: '#39FF14' },
     ],
     sizes: [6, 7, 8, 9, 10],
+    soldSizes: [9]
   },
   {
     id: 'shoe-22',
@@ -578,6 +588,7 @@ export const products = [
       { name: 'Neon White', hex: '#39FF14' },
     ],
     sizes: [6, 7, 8, 9, 10],
+    soldSizes: [7, 10]
   },
   {
     id: 'shoe-25',
@@ -620,6 +631,7 @@ export const products = [
       { name: 'Welco Purple', hex: '#6A0DAD' },
     ],
     sizes: [6, 7, 8, 9, 10],
+    soldSizes: [7, 9]
   },
 ];
 
