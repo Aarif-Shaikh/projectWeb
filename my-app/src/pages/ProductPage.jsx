@@ -195,27 +195,28 @@ export default function ProductPage() {
             <div className="mt-6">
               <p className="text-sm font-semibold">Size</p>
               <div className="flex flex-wrap items-center gap-2 mt-2">
-                {product.sizes.map((size) => {
-  const isSold = product.soldSizes?.includes(size);
+                {selectedColor?.sizes.map((size) => {
+                  const isSold = selectedColor.soldSizes?.includes(size);
 
-  return (
-    <Button
-      key={size}
-      variant={selectedSize === size ? 'secondary' : 'outline'}
-      onClick={() => !isSold && setSelectedSize(size)}
-      disabled={isSold}
-      className={`border-white/15 
-        ${!isSold && selectedSize !== size ? 'bg-white/5 text-white hover:bg-white/10' : ''} 
-        ${selectedSize === size ? 'bg-gradient-to-r from-fuchsia-500 to-cyan-400 text-black' : ''} 
-        ${isSold ? 'bg-gray-500 text-white line-through cursor-not-allowed' : ''}`}
-    >
-      {size}
-    </Button>
-  );
-})}
-
+                  return (
+                    <div key={size} className="relative">
+                      <Button
+                        variant={selectedSize === size ? 'secondary' : 'outline'}
+                        onClick={() => !isSold && setSelectedSize(size)}
+                        disabled={isSold}
+                        className={`border-white/15 
+              ${!isSold && selectedSize !== size ? 'bg-white/5 text-white hover:bg-white/10' : ''} 
+              ${selectedSize === size ? 'bg-gradient-to-r from-fuchsia-500 to-cyan-400 text-black' : ''} 
+              ${isSold ? 'bg-gray-500 text-white line-through cursor-not-allowed' : ''}`}
+                      >
+                        {size}
+                      </Button>
+                    </div>
+                  );
+                })}
               </div>
             </div>
+
 
             <div className="mt-auto pt-6 grid sm:grid-cols-2 gap-3">
               <Button
