@@ -38,9 +38,11 @@ export default function ProductPage() {
 
   const handleColorChange = (color) => {
     setSelectedColor(color);
+    setSelectedSize(null); // ✅ Reset size when changing color
     const media = product.media[color.name]?.[0] || null;
     setSelectedMedia(media);
   };
+
 
 
   if (!product) {

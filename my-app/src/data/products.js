@@ -125,7 +125,7 @@ export const products = [
       {
         name: 'Boston White', hex: '#85C1E9',
         sizes: [6, 7, 8, 9, 10],
-        soldSizes: [7, 8]
+        soldSizes: [6, 7, 8, 9]
       },
     ],
   },
@@ -147,7 +147,7 @@ export const products = [
     colors: [
       { name: 'Grey Black', hex: '#39FF14',
     sizes: [6, 7, 8, 9, 10],
-    soldSizes: [7] },
+    soldSizes: [6, 7] },
     ],
   },
   {
@@ -180,7 +180,7 @@ export const products = [
       ],
     },
     colors: [
-      { name: 'White Trefoil', hex: '#39FF14', sizes: [6, 7, 8, 9, 10], soldSizes: [7] },
+      { name: 'White Trefoil', hex: '#39FF14', sizes: [6, 7, 8, 9, 10], soldSizes: [6, 7] },
       { name: 'Black Trefoil', hex: '#39FF14', sizes: [6, 7, 8, 9, 10] },
     ],
   },
@@ -234,7 +234,7 @@ export const products = [
       { name: 'Yellow', hex: '#39FF14', sizes: [6, 7, 8, 9, 10], },
       {
         name: 'White', hex: '#39FF14', sizes: [6, 7, 8, 9, 10],
-        soldSizes: [7, 8]
+        soldSizes: [6, 7, 8]
       },
     ],
   },
@@ -278,7 +278,7 @@ export const products = [
     },
     colors: [
       { name: 'Metallic Blue', hex: '#39FF14',
-    sizes: [6, 7, 8, 9, 10], },
+    sizes: [6, 7, 8, 9, 10], soldSizes: [8] },
     ],
   },
   {
@@ -360,7 +360,7 @@ export const products = [
     },
     colors: [
       { name: 'Blue Red', hex: '#39FF14', sizes: [6, 7, 8, 9, 10], },
-      { name: 'Black Red', hex: '#39FF14', sizes: [6, 7, 8, 9, 10], },
+      { name: 'Black Red', hex: '#39FF14', sizes: [6, 7, 8, 9, 10],soldSizes: [7] },
     ],
   },
   {
@@ -411,7 +411,7 @@ export const products = [
     colors: [
       { name: 'Metallic Black', hex: '#39FF14',
     sizes: [6, 7, 8, 9, 10],
-    soldSizes: [8], },
+    soldSizes: [8, 9], },
     ],
   },
   {
@@ -498,7 +498,7 @@ export const products = [
     colors: [
       { name: 'Red Black', hex: '#39FF14',
     sizes: [6, 7, 8, 9, 10],
-    soldSizes: [7] },
+    soldSizes: [6, 7, 8, 9] },
     ],
   },
   {
@@ -583,7 +583,7 @@ export const products = [
     colors: [
       { name: 'Neon White', hex: '#39FF14',
     sizes: [6, 7, 8, 9, 10],
-    soldSizes: [7, 10] },
+    soldSizes: [6, 7, 10] },
     ],
   },
   {
@@ -626,7 +626,7 @@ export const products = [
     colors: [
       { name: 'Welco Purple', hex: '#6A0DAD',
     sizes: [6, 7, 8, 9, 10],
-    soldSizes: [7, 9] },
+    soldSizes: [6, 7, 9] },
     ],
   },
 ];
