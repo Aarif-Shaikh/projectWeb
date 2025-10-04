@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "vite": "^4.5.14",
     "@radix-ui/react-alert-dialog": "^1.0.5",
     "@radix-ui/react-avatar": "^1.0.3",
     "@radix-ui/react-checkbox": "^1.0.4",
@@ -34,7 +35,6 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "vite": "^4.5.14",
     "@babel/generator": "^7.27.0",
     "@babel/parser": "^7.27.0",
     "@babel/traverse": "^7.27.0",
