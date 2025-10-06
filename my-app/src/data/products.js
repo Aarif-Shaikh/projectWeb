@@ -102,7 +102,7 @@ export const products = [
       ],
     },
     colors: [
-      { name: 'Navy Blue', hex: '#1F3A3D', sizes: [6, 7, 8, 9, 10], soldSizes: [10]},
+      { name: 'Navy Blue', hex: '#1F3A3D', sizes: [6, 7, 8, 9, 10], soldSizes: [6, 10]},
     ],
   },
   {
