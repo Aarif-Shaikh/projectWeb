@@ -17,7 +17,7 @@ export const products = [
       ],
     },
     colors: [
-      { name: 'Black & White', hex: '#5D6D7E', sizes: [6, 7, 8, 9, 10], },
+      { name: 'Black & White', hex: '#5D6D7E', sizes: [6, 7, 8, 9, 10], soldSizes: [6]},
     ],
   },
   {
@@ -46,8 +46,8 @@ export const products = [
       ],
     },
     colors: [
-      { name: 'Pure White', hex: '#FFFFFF', sizes: [6, 7, 8, 9, 10], },
-      { name: 'Pure Black', hex: '#17202A', sizes: [6, 7, 8, 9, 10], },
+      { name: 'Pure White', hex: '#FFFFFF', sizes: [6, 7, 8, 9, 10], soldSizes: [6,9]},
+      { name: 'Pure Black', hex: '#17202A', sizes: [6, 7, 8, 9, 10], soldSizes: [10]},
     ],
   },
   {
@@ -102,7 +102,7 @@ export const products = [
       ],
     },
     colors: [
-      { name: 'Navy Blue', hex: '#1F3A3D', sizes: [6, 7, 8, 9, 10], },
+      { name: 'Navy Blue', hex: '#1F3A3D', sizes: [6, 7, 8, 9, 10], soldSizes: [10]},
     ],
   },
   {
@@ -181,7 +181,7 @@ export const products = [
     },
     colors: [
       { name: 'White Trefoil', hex: '#39FF14', sizes: [6, 7, 8, 9, 10], soldSizes: [6, 7, 8] },
-      { name: 'Black Trefoil', hex: '#39FF14', sizes: [6, 7, 8, 9, 10] },
+      { name: 'Black Trefoil', hex: '#39FF14', sizes: [6, 7, 8, 9, 10], soldSizes: [10] },
     ],
   },
   {
@@ -202,7 +202,7 @@ export const products = [
     colors: [
       { name: 'Uptempo White', hex: '#39FF14',
     sizes: [6, 7, 8, 9, 10],
-    soldSizes: [8] },
+    soldSizes: [8, 10] },
     ],
   },
   {
@@ -231,10 +231,10 @@ export const products = [
       ],
     },
     colors: [
-      { name: 'Yellow', hex: '#39FF14', sizes: [6, 7, 8, 9, 10], },
+      { name: 'Yellow', hex: '#39FF14', sizes: [6, 7, 8, 9, 10], soldSizes: [6, 9]},
       {
         name: 'White', hex: '#39FF14', sizes: [6, 7, 8, 9, 10],
-        soldSizes: [6, 7, 8]
+        soldSizes: [7, 8, 10]
       },
     ],
   },
@@ -278,7 +278,7 @@ export const products = [
     },
     colors: [
       { name: 'Metallic Blue', hex: '#39FF14',
-    sizes: [6, 7, 8, 9, 10], soldSizes: [7, 8] },
+    sizes: [6, 7, 8, 9, 10], soldSizes: [7, 8, 10] },
     ],
   },
   {
@@ -298,7 +298,7 @@ export const products = [
     },
     colors: [
       { name: 'Orange grey', hex: '#39FF14',
-    sizes: [6, 7, 8, 9, 10], },
+    sizes: [6, 7, 8, 9, 10], soldSizes: [9]},
     ],
   },
   {
@@ -328,8 +328,8 @@ export const products = [
       ],
     },
     colors: [
-      { name: 'Black Yellow', hex: '#39FF14', sizes: [6, 7, 8, 9, 10], },
-      { name: 'Black White', hex: '#39FF14', sizes: [6, 7, 8, 9, 10], },
+      { name: 'Black Yellow', hex: '#39FF14', sizes: [6, 7, 8, 9, 10], soldSizes: [6, 10] },
+      { name: 'Black White', hex: '#39FF14', sizes: [6, 7, 8, 9, 10], soldSizes: [6] },
     ],
   },
   {
@@ -359,8 +359,8 @@ export const products = [
       ],
     },
     colors: [
-      { name: 'Blue Red', hex: '#39FF14', sizes: [6, 7, 8, 9, 10],soldSizes: [8] },
-      { name: 'Black Red', hex: '#39FF14', sizes: [6, 7, 8, 9, 10],soldSizes: [7] },
+      { name: 'Blue Red', hex: '#39FF14', sizes: [6, 7, 8, 9, 10],soldSizes: [6, 8] },
+      { name: 'Black Red', hex: '#39FF14', sizes: [6, 7, 8, 9, 10],soldSizes: [6, 7, 10] },
     ],
   },
   {
@@ -389,8 +389,8 @@ export const products = [
       ],
     },
     colors: [
-      { name: 'Blue White', hex: '#39FF14', sizes: [6, 7, 8, 9, 10], },
-      { name: 'Full White', hex: '#39FF14', sizes: [6, 7, 8, 9, 10], },
+      { name: 'Blue White', hex: '#39FF14', sizes: [6, 7, 8, 9, 10], soldSizes: [7, 8, 10]},
+      { name: 'Full White', hex: '#39FF14', sizes: [6, 7, 8, 9, 10], soldSizes: [6, 8, 9, 10] },
     ],
   },
   {
@@ -432,7 +432,7 @@ export const products = [
     },
     colors: [
       { name: 'Metallic White', hex: '#39FF14',
-    sizes: [6, 7, 8, 9, 10], },
+    sizes: [6, 7, 8, 9, 10],soldSizes: [6, 8, 10] },
     ],
   },
   {
@@ -476,7 +476,7 @@ export const products = [
     },
     colors: [
       { name: 'Feather White', hex: '#39FF14',
-    sizes: [6, 7, 8, 9, 10], },
+    sizes: [6, 7, 8, 9, 10], soldSizes: [6]},
     ],
   },
   {
@@ -520,7 +520,7 @@ export const products = [
     colors: [
       { name: 'Gel White', hex: '#39FF14',
     sizes: [6, 7, 8, 9, 10],
-    soldSizes: [9, 10] },
+    soldSizes: [6, 9, 10] },
     ],
   },
   {
@@ -541,7 +541,7 @@ export const products = [
     },
     colors: [
       { name: 'Fury Red', hex: '#FF5733',
-    sizes: [6, 7, 8, 9, 10], soldSizes: [8]},
+    sizes: [6, 7, 8, 9, 10], soldSizes: [6, 8, 9]},
     ],
   },
   {
@@ -562,7 +562,7 @@ export const products = [
     },
     colors: [
       { name: 'Venture Grey', hex: '#39FF14',
-    sizes: [6, 7, 8, 9, 10], },
+    sizes: [6, 7, 8, 9, 10], soldSizes: [6]},
     ],
   },
   {
@@ -626,7 +626,7 @@ export const products = [
     colors: [
       { name: 'Welco Purple', hex: '#6A0DAD',
     sizes: [6, 7, 8, 9, 10],
-    soldSizes: [6, 7, 9] },
+    soldSizes: [6, 7, 8, 9] },
     ],
   },
 ];
