@@ -8,15 +8,29 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { products } from '@/data/products.js';
 
 function FeaturedCard({ product }) {
-  // const { addItem } = useCart();
   const defaultImage =
     product.media && typeof product.media === "object"
-      ? Object.values(product.media)[0]?.find(m => m.type === "image")?.src
+      ? Object.values(product.media)[0]?.find((m) => m.type === "image")?.src
       : "";
 
+  // ✅ Handle stock calculation based on product.colors[0]
+  const firstColor = product.colors?.[0];
+  const totalSizes = firstColor?.sizes?.length || 0;
+  const soldCount = firstColor?.soldSizes?.length || 0;
+  const remaining = totalSizes - soldCount;
 
-  if (!product.media) {
-    console.warn("Product missing media:", product);
+  let stockText = "";
+  let stockColor = "";
+
+  if (remaining <= 0) {
+    stockText = "Out of Stock";
+    stockColor = "text-red-500";
+  } else if (remaining < 4) {
+    stockText = `Only ${remaining} left in stock`;
+    stockColor = "text-orange-400";
+  } else {
+    stockText = "In Stock";
+    stockColor = "text-green-400";
   }
 
   return (
@@ -24,27 +38,42 @@ function FeaturedCard({ product }) {
       whileHover={{ y: -4 }}
       className="rounded-2xl border border-white/10 bg-white/5 backdrop-blur p-3 shadow-lg hover:shadow-fuchsia-500/10 transition-shadow flex flex-col"
     >
-      <Link to={`/product/${product.id}`} className="block rounded-xl overflow-hidden aspect-[4/3] border border-white/10">
+      <Link
+        to={`/product/${product.id}`}
+        className="block rounded-xl overflow-hidden aspect-[4/3] border border-white/10"
+      >
         <img src={defaultImage} alt={product.name} className="w-full h-full object-cover" />
       </Link>
+
       <div className="flex items-center justify-between mt-3">
         <div>
           <p className="font-semibold">{product.name}</p>
+
+          {/* ✅ Stock status below product name */}
+          <p className={`text-xs font-medium mt-1 ${stockColor}`}>{stockText}</p>
+
           <p className="text-sm text-white/70">
-            ₹{Number.isInteger(product.price)
+            ₹
+            {Number.isInteger(product.price)
               ? product.price.toLocaleString("en-IN")
-              : product.price.toLocaleString("en-IN", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
+              : product.price.toLocaleString("en-IN", {
+                minimumFractionDigits: 2,
+                maximumFractionDigits: 2,
+              })}
           </p>
         </div>
+
         <Button
           action="add-to-cart"
-          product={{ ...product, image: defaultImage }} // 👈 attach image here
-          className="bg-gradient-to-r from-fuchsia-500 to-cyan-400 text-black font-semibold"
+          product={{ ...product, image: defaultImage }}
+          className={`font-semibold ${remaining <= 0
+              ? "bg-gray-600 text-white cursor-not-allowed opacity-70"
+              : "bg-gradient-to-r from-fuchsia-500 to-cyan-400 text-black"
+            }`}
+          disabled={remaining <= 0}
         >
-          Add to cart
+          {remaining <= 0 ? "Out of Stock" : "Add to cart"}
         </Button>
-
-
       </div>
     </motion.article>
   );
@@ -113,7 +142,6 @@ export default function Home() {
             </span>
           </span>
         </h1>
-
 
         <p className="text-center text-white/70 mt-3 max-w-2xl mx-auto">
           Curated sneakers for everyday comfort and standout moments.
