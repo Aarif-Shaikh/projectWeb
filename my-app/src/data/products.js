@@ -80,7 +80,7 @@ export const products = [
     colors: [
       {
         name: 'Classic Blue', hex: '#212121', sizes: [6, 7, 8, 9, 10],
-        soldSizes: [6, 10]
+        soldSizes: [6, 8, 10]
       },
       { name: 'Classic Red', hex: '#34495E', sizes: [6, 7, 8, 9, 10], soldSizes: [6] },
     ],
@@ -147,7 +147,7 @@ export const products = [
     colors: [
       { name: 'Grey Black', hex: '#39FF14',
     sizes: [6, 7, 8, 9, 10],
-    soldSizes: [6, 7] },
+    soldSizes: [6, 7, 8, 9] },
     ],
   },
   {
@@ -411,7 +411,7 @@ export const products = [
     colors: [
       { name: 'Metallic Black', hex: '#39FF14',
     sizes: [6, 7, 8, 9, 10],
-    soldSizes: [8, 9], },
+    soldSizes: [8, 9, 10], },
     ],
   },
   {

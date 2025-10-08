@@ -25,19 +25,37 @@ export default function Checkout() {
 
 
     useEffect(() => {
-        if (id) {
-            // Single item checkout
-            setCheckoutItems(items.filter((it) => it.id === id));
-        } else if (location.state?.items) {
-            // Multiple selected items from Cart
-            setCheckoutItems(items.filter((it) => location.state.items.includes(it.id)));
-            localStorage.setItem("checkoutItems", JSON.stringify(location.state.items));
-        } else {
-            // Restore from localStorage if user refreshes
-            const saved = JSON.parse(localStorage.getItem("checkoutItems")) || [];
-            setCheckoutItems(items.filter((it) => saved.includes(it.id)));
+    // Helper: get items from localStorage safely
+    const getSavedCheckoutItems = () => {
+        try {
+            const saved = localStorage.getItem("checkoutItems");
+            return saved ? JSON.parse(saved) : [];
+        } catch (err) {
+            console.warn("Failed to parse checkoutItems from localStorage", err);
+            return [];
         }
-    }, [id, location.state, items]);
+    };
+
+    if (id) {
+        // Case 1: Single item checkout
+        const singleItem = items.find((it) => it.id === id);
+        setCheckoutItems(singleItem ? [singleItem] : []);
+    } else if (location.state?.items?.length) {
+        // Case 2: Multiple selected items from Cart
+        const selectedItems = items.filter((it) => location.state.items.includes(it.id));
+        setCheckoutItems(selectedItems);
+        localStorage.setItem(
+            "checkoutItems",
+            JSON.stringify(location.state.items)
+        );
+    } else {
+        // Case 3: Restore from localStorage
+        const savedIds = getSavedCheckoutItems();
+        const restoredItems = items.filter((it) => savedIds.includes(it.id));
+        setCheckoutItems(restoredItems);
+    }
+}, [id, location.state?.items, items]);
+
 
     const computedTotal = checkoutItems.reduce(
         (acc, it) => acc + it.qty * it.price,
@@ -466,6 +484,7 @@ Type: ${address.type}
                                         }
                                         alt={it.name}
                                         className="w-24 h-24 object-cover rounded-md border border-white/10"
+                                        onClick={() => navigate(`/product/${it.id}`)}
                                     />
                                 </div>
 
@@ -652,8 +671,6 @@ Type: ${address.type}
                         </div>
                     )}
 
-
-
                     <Button
                         onClick={handleWhatsAppRedirect}
                         className="w-full bg-gradient-to-r from-fuchsia-500 to-cyan-400 text-black font-semibold"
@@ -664,7 +681,6 @@ Type: ${address.type}
                         )
                     </Button>
                 </div>
-
 
                 {/* Empty checkout modal */}
                 <AnimatePresence>

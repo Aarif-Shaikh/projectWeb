@@ -6,18 +6,34 @@ import { Button } from '@/components/ui/button.jsx';
 import { useCart } from '@/store/CartContext.jsx';
 import { motion, AnimatePresence } from 'framer-motion';
 import { products } from '@/data/products.js';
+import { useToast } from '@/components/ui/use-toast.js';
+import { toast } from "@/components/ui/use-toast.js";
 
 function FeaturedCard({ product }) {
+  const { addItem } = useCart(); // ✅ access add() from context
+  const { toast } = useToast(); // ✅ import toast safely
+
   const defaultImage =
     product.media && typeof product.media === "object"
       ? Object.values(product.media)[0]?.find((m) => m.type === "image")?.src
       : "";
 
-  // ✅ Handle stock calculation based on product.colors[0]
-  const firstColor = product.colors?.[0];
-  const totalSizes = firstColor?.sizes?.length || 0;
-  const soldCount = firstColor?.soldSizes?.length || 0;
-  const remaining = totalSizes - soldCount;
+  // ✅ Get first color safely
+  const firstColor = product.colors?.[0] || {};
+
+  const totalSizes = firstColor.sizes?.length || 0;
+  const soldCount = firstColor.soldSizes?.length || 0;
+  const remaining = Math.max(totalSizes - soldCount, 0);
+
+  // ✅ Safe fallback for missing arrays
+  const allSizes = Array.isArray(firstColor.sizes) ? firstColor.sizes : [];
+  const soldSizes = Array.isArray(firstColor.soldSizes)
+    ? firstColor.soldSizes
+    : [];
+
+  // ✅ Filter available sizes safely
+  const availableSizes = allSizes.filter((size) => !soldSizes.includes(size));
+  const defaultAvailableSize = availableSizes[0] || null;
 
   let stockText = "";
   let stockColor = "";
@@ -33,6 +49,31 @@ function FeaturedCard({ product }) {
     stockColor = "text-green-400";
   }
 
+  // ✅ Add to cart handler
+  const handleAddToCart = () => {
+    if (!defaultAvailableSize) {
+      toast({
+        title: "Out of stock",
+        description: "This product size is no longer available.",
+      });
+      return;
+    }
+
+    const itemToAdd = {
+      ...product,
+      image: defaultImage,
+      color: firstColor.name || "Default",
+      size: defaultAvailableSize, // ✅ auto-selected size
+    };
+
+    addItem(itemToAdd);
+
+    toast({
+      title: "Added to Cart 🛒",
+      description: `${product.name} (Size: ${itemToAdd.size}, Color: ${itemToAdd.color}) has been added.`,
+    });
+  };
+
   return (
     <motion.article
       whileHover={{ y: -4 }}
@@ -42,35 +83,36 @@ function FeaturedCard({ product }) {
         to={`/product/${product.id}`}
         className="block rounded-xl overflow-hidden aspect-[4/3] border border-white/10"
       >
-        <img src={defaultImage} alt={product.name} className="w-full h-full object-cover" />
+        <img
+          src={defaultImage || "/placeholder.png"}
+          alt={product.name}
+          className="w-full h-full object-cover"
+        />
       </Link>
 
       <div className="flex items-center justify-between mt-3">
         <div>
           <p className="font-semibold">{product.name}</p>
-
-          {/* ✅ Stock status below product name */}
           <p className={`text-xs font-medium mt-1 ${stockColor}`}>{stockText}</p>
-
           <p className="text-sm text-white/70">
             ₹
             {Number.isInteger(product.price)
               ? product.price.toLocaleString("en-IN")
               : product.price.toLocaleString("en-IN", {
-                minimumFractionDigits: 2,
-                maximumFractionDigits: 2,
-              })}
+                  minimumFractionDigits: 2,
+                  maximumFractionDigits: 2,
+                })}
           </p>
         </div>
 
         <Button
-          action="add-to-cart"
-          product={{ ...product, image: defaultImage }}
-          className={`font-semibold ${remaining <= 0
+          onClick={handleAddToCart}
+          disabled={remaining <= 0}
+          className={`font-semibold ${
+            remaining <= 0
               ? "bg-gray-600 text-white cursor-not-allowed opacity-70"
               : "bg-gradient-to-r from-fuchsia-500 to-cyan-400 text-black"
-            }`}
-          disabled={remaining <= 0}
+          }`}
         >
           {remaining <= 0 ? "Out of Stock" : "Add to cart"}
         </Button>
@@ -78,6 +120,7 @@ function FeaturedCard({ product }) {
     </motion.article>
   );
 }
+
 
 export default function Home() {
   const featuredProducts = products.slice(0, 26);
