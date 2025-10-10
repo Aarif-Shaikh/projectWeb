@@ -46,7 +46,7 @@ export const products = [
       ],
     },
     colors: [
-      { name: 'Pure White', hex: '#FFFFFF', sizes: [6, 7, 8, 9, 10], soldSizes: [6,9]},
+      { name: 'Pure White', hex: '#FFFFFF', sizes: [6, 7, 8, 9, 10], soldSizes: [9, 10]},
       { name: 'Pure Black', hex: '#17202A', sizes: [6, 7, 8, 9, 10], soldSizes: [10]},
     ],
   },
@@ -257,7 +257,7 @@ export const products = [
     colors: [
       { name: 'Armour Grey', hex: '#39FF14',
     sizes: [6, 7, 8, 9, 10],
-    soldSizes: [8]},
+    soldSizes: [8, 10]},
     ],
   },
   {
@@ -298,7 +298,7 @@ export const products = [
     },
     colors: [
       { name: 'Orange grey', hex: '#39FF14',
-    sizes: [6, 7, 8, 9, 10], soldSizes: [9]},
+    sizes: [6, 7, 8, 9, 10], soldSizes: [9, 10]},
     ],
   },
   {
@@ -411,7 +411,7 @@ export const products = [
     colors: [
       { name: 'Metallic Black', hex: '#39FF14',
     sizes: [6, 7, 8, 9, 10],
-    soldSizes: [8, 9, 10], },
+    soldSizes: [7, 8, 9, 10], },
     ],
   },
   {
