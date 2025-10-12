@@ -234,7 +234,7 @@ export const products = [
       { name: 'Yellow', hex: '#39FF14', sizes: [6, 7, 8, 9, 10], soldSizes: [6, 8, 9]},
       {
         name: 'White', hex: '#39FF14', sizes: [6, 7, 8, 9, 10],
-        soldSizes: [7, 8, 10]
+        soldSizes: [6, 7, 8, 10]
       },
     ],
   },
@@ -278,7 +278,7 @@ export const products = [
     },
     colors: [
       { name: 'Metallic Blue', hex: '#39FF14',
-    sizes: [6, 7, 8, 9, 10], soldSizes: [8, 10] },
+    sizes: [6, 7, 8, 9, 10], soldSizes: [8, 9, 10] },
     ],
   },
   {
@@ -328,7 +328,7 @@ export const products = [
       ],
     },
     colors: [
-      { name: 'Black Yellow', hex: '#39FF14', sizes: [6, 7, 8, 9, 10], soldSizes: [6, 10] },
+      { name: 'Black Yellow', hex: '#39FF14', sizes: [6, 7, 8, 9, 10], soldSizes: [6, 9,10] },
       { name: 'Black White', hex: '#39FF14', sizes: [6, 7, 8, 9, 10], soldSizes: [6] },
     ],
   },
@@ -604,7 +604,7 @@ export const products = [
     },
     colors: [
       { name: 'Matt Black', hex: '#000000',
-    sizes: [6, 7, 8, 9, 10], soldSizes: [6, 7]},
+    sizes: [6, 7, 8, 9, 10], soldSizes: [6, 7, 9]},
     ],
   },
   {
