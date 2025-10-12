@@ -91,28 +91,27 @@ function FeaturedCard({ product }) {
       </Link>
 
       <div className="flex items-center justify-between mt-3">
-        <div>
-          <p className="font-semibold">{product.name}</p>
+        <div className="flex-1 min-w-0">
+          <p className="font-semibold truncate">{product.name}</p>
           <p className={`text-xs font-medium mt-1 ${stockColor}`}>{stockText}</p>
           <p className="text-sm text-white/70">
             ₹
             {Number.isInteger(product.price)
               ? product.price.toLocaleString("en-IN")
               : product.price.toLocaleString("en-IN", {
-                  minimumFractionDigits: 2,
-                  maximumFractionDigits: 2,
-                })}
+                minimumFractionDigits: 2,
+                maximumFractionDigits: 2,
+              })}
           </p>
         </div>
 
         <Button
           onClick={handleAddToCart}
           disabled={remaining <= 0}
-          className={`font-semibold ${
-            remaining <= 0
+          className={`font-semibold ${remaining <= 0
               ? "bg-gray-600 text-white cursor-not-allowed opacity-70"
               : "bg-gradient-to-r from-fuchsia-500 to-cyan-400 text-black"
-          }`}
+            }`}
         >
           {remaining <= 0 ? "Out of Stock" : "Add to cart"}
         </Button>

@@ -56,61 +56,57 @@ function ProductCard({ product }) {
       </Link>
 
       <div className="flex items-center justify-between mt-3">
-        <div>
-          <p className="font-semibold">{product.name}</p>
-
-          {/* ✅ Stock status below product name */}
+        <div className="flex-1 min-w-0">
+          <p className="font-semibold truncate">{product.name}</p>
           <p className={`text-xs font-medium mt-1 ${stockColor}`}>{stockText}</p>
-
           <p className="text-sm text-white/70">
             ₹
             {Number.isInteger(product.price)
               ? product.price.toLocaleString('en-IN')
               : product.price.toLocaleString('en-IN', {
-                  minimumFractionDigits: 2,
-                  maximumFractionDigits: 2,
-                })}
+                minimumFractionDigits: 2,
+                maximumFractionDigits: 2,
+              })}
           </p>
         </div>
 
         <Button
-  onClick={() => {
-    if (remaining > 0) {
-      // ✅ Pick the first color safely
-      const firstColor = product.colors?.[0] || {};
+          onClick={() => {
+            if (remaining > 0) {
+              // ✅ Pick the first color safely
+              const firstColor = product.colors?.[0] || {};
 
-      // ✅ Safe arrays
-      const allSizes = Array.isArray(firstColor.sizes) ? firstColor.sizes : [];
-      const soldSizes = Array.isArray(firstColor.soldSizes) ? firstColor.soldSizes : [];
+              // ✅ Safe arrays
+              const allSizes = Array.isArray(firstColor.sizes) ? firstColor.sizes : [];
+              const soldSizes = Array.isArray(firstColor.soldSizes) ? firstColor.soldSizes : [];
 
-      // ✅ Filter available sizes
-      const availableSizes = allSizes.filter((size) => !soldSizes.includes(size));
-      const defaultAvailableSize = availableSizes[0] || null;
+              // ✅ Filter available sizes
+              const availableSizes = allSizes.filter((size) => !soldSizes.includes(size));
+              const defaultAvailableSize = availableSizes[0] || null;
 
-      const itemToAdd = {
-        ...product,
-        image: defaultImage,
-        color: firstColor.name || "Default",
-        size: defaultAvailableSize || "Default", // ✅ fallback
-      };
+              const itemToAdd = {
+                ...product,
+                image: defaultImage,
+                color: firstColor.name || "Default",
+                size: defaultAvailableSize || "Default", // ✅ fallback
+              };
 
-      addItem(itemToAdd);
+              addItem(itemToAdd);
 
-      toast({
-        title: "Added to Cart 🛒",
-        description: `${product.name} (Size: ${itemToAdd.size}, Color: ${itemToAdd.color}) has been added.`,
-      });
-    }
-  }}
-  className={`font-semibold ${
-    remaining <= 0
-      ? 'bg-gray-600 text-white cursor-not-allowed opacity-70'
-      : 'bg-gradient-to-r from-fuchsia-500 to-cyan-400 text-black'
-  }`}
-  disabled={remaining <= 0}
->
-  {remaining <= 0 ? 'Out of Stock' : 'Add to cart'}
-</Button>
+              toast({
+                title: "Added to Cart 🛒",
+                description: `${product.name} (Size: ${itemToAdd.size}, Color: ${itemToAdd.color}) has been added.`,
+              });
+            }
+          }}
+          className={`font-semibold ${remaining <= 0
+              ? 'bg-gray-600 text-white cursor-not-allowed opacity-70'
+              : 'bg-gradient-to-r from-fuchsia-500 to-cyan-400 text-black'
+            }`}
+          disabled={remaining <= 0}
+        >
+          {remaining <= 0 ? 'Out of Stock' : 'Add to cart'}
+        </Button>
 
       </div>
     </motion.article>
