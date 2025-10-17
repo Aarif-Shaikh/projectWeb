@@ -360,7 +360,7 @@ export const products = [
     },
     colors: [
       { name: 'Blue Red', hex: '#39FF14', sizes: [6, 7, 8, 9, 10],soldSizes: [6, 8, 9] },
-      { name: 'Black Red', hex: '#39FF14', sizes: [6, 7, 8, 9, 10],soldSizes: [6, 7, 8, 10] },
+      { name: 'Black Red', hex: '#39FF14', sizes: [6, 7, 8, 9, 10],soldSizes: [6, 7, 8, 9, 10] },
     ],
   },
   {
