@@ -163,10 +163,14 @@ export default function ProductPage() {
             </p>
 
             <div className="text-white/70 mt-4 space-y-4">
-              {product.description.split('\n\n').map((para, index) => (
-                <p key={index}>{para}</p>
-              ))}
-            </div>
+  {(selectedColor?.description || product?.description || '')
+    ?.split('\n\n')
+    .map((para, index) => (
+      <p key={index}>{para}</p>
+    ))}
+</div>
+
+
 
 
             <div className="mt-6">
