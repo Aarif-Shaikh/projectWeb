@@ -1,6 +1,12 @@
 
 export const heroSliderProducts = [
   {
+    id: 'shoe-27',
+    name: 'Sky Drift Low',
+    price: 699,
+    image: '/cabinMaterials/P34.jpg', // main hero image
+  },
+  {
     id: 'shoe-1',
     name: 'Onitsuka Tiger',
     price: 729,
