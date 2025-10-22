@@ -17,7 +17,7 @@ export const products = [
       { name: 'Black & White', hex: '#5D6D7E', 
         description:
       "Experience the perfect blend of style and performance with Onitsuka Tiger shoes. These iconic sneakers, known for their signature tiger stripes, combine heritage-inspired design with modern comfort, making them ideal for casual wear, gym sessions, or urban adventures. Crafted with premium materials, they offer lightweight cushioning, flexibility, and breathability for all-day comfort.\n\n Designed for men, women, and young adults, Onitsuka Tiger sneakers deliver superior traction and durability on multiple surfaces. Their versatile design pairs effortlessly with streetwear, athleisure, and casual outfits, making them a must-have for anyone seeking trendy, high-quality sneakers that merge fashion with functionality.",
-      sizes: [6, 7, 8, 9, 10], soldSizes: [6, 9, 10]},
+      sizes: [6, 7, 8, 9, 10], soldSizes: [6, 8, 9, 10]},
     ],
   },
   {
@@ -46,10 +46,10 @@ export const products = [
     colors: [
       { name: 'Pure White', hex: '#FFFFFF', 
         description: "Step into effortless style and comfort with these Pure White Slip-On Loafers. Designed for modern individuals who value convenience and elegance, these loafers are perfect for casual outings, office wear, or weekend getaways. The sleek all-white design adds a touch of sophistication to any outfit, while the slip-on style ensures easy wear and a snug, comfortable fit throughout the day.  \n\nCrafted with premium materials, these loafers provide lightweight cushioning, durability, and breathability for all-day comfort. Their versatile design pairs seamlessly with jeans, chinos, or shorts, making them a must-have for men and women seeking stylish, practical footwear that blends fashion with functionality.",
-        sizes: [6, 7, 8, 9, 10], soldSizes: [6, 8, 9, 10]},
+        sizes: [6, 7, 8, 9, 10], soldSizes: [6, 7, 8, 9, 10]},
       { name: 'Pure Black', hex: '#17202A',
         description: "Step into effortless style and comfort with these Pure Black Slip-On Loafers. Designed for modern individuals who value convenience and elegance, these loafers are perfect for casual outings, office wear, or weekend getaways. The sleek all-black design adds a touch of sophistication to any outfit, while the slip-on style ensures easy wear and a snug, comfortable fit throughout the day.\n\nCrafted with premium materials, these loafers provide lightweight cushioning, durability, and breathability for all-day comfort. Their versatile design pairs seamlessly with jeans, chinos, or shorts, making them a must-have for men and women seeking stylish, practical footwear that blends fashion with functionality.",
-        sizes: [6, 7, 8, 9, 10], soldSizes: [8, 10]},
+        sizes: [6, 7, 8, 9, 10], soldSizes: [7, 8, 10]},
     ],
   },
   {
@@ -180,7 +180,7 @@ export const products = [
     },
     colors: [
       { name: 'White Trefoil', hex: '#39FF14', 
-    description: "Elevate your sneaker game with the Adidas Forum Sneakers, featuring the iconic three black stripes and a bold black Trefoil logo. Designed for those who appreciate classic style with a modern twist, these sneakers combine streetwear appeal with timeless athletic heritage. Perfect for casual outings, gym sessions, or adding a sporty edge to your everyday look.\n\nCrafted with premium materials, Adidas Forum Sneakers offer exceptional comfort, durability, and support. The cushioned midsole and sturdy outsole ensure all-day wearability, while the sleek black design pairs effortlessly with jeans, joggers, or shorts. Step confidently with these versatile sneakers that merge style, performance, and iconic Adidas heritage into one must-have footwear essential.",sizes: [6, 7, 8, 9, 10], soldSizes: [6, 7, 8] },
+    description: "Elevate your sneaker game with the Adidas Forum Sneakers, featuring the iconic three black stripes and a bold black Trefoil logo. Designed for those who appreciate classic style with a modern twist, these sneakers combine streetwear appeal with timeless athletic heritage. Perfect for casual outings, gym sessions, or adding a sporty edge to your everyday look.\n\nCrafted with premium materials, Adidas Forum Sneakers offer exceptional comfort, durability, and support. The cushioned midsole and sturdy outsole ensure all-day wearability, while the sleek black design pairs effortlessly with jeans, joggers, or shorts. Step confidently with these versatile sneakers that merge style, performance, and iconic Adidas heritage into one must-have footwear essential.",sizes: [6, 7, 8, 9, 10], soldSizes: [6, 7, 8, 10] },
       { name: 'Black Trefoil', hex: '#39FF14',
     description: "Elevate your sneaker game with the Adidas Forum Sneakers, featuring the iconic three white stripes and a bold white Trefoil logo. Designed for those who appreciate classic style with a modern twist, these sneakers combine streetwear appeal with timeless athletic heritage. Perfect for casual outings, gym sessions, or adding a sporty edge to your everyday look.\n\nCrafted with premium materials, Adidas Forum Sneakers offer exceptional comfort, durability, and support. The cushioned midsole and sturdy outsole ensure all-day wearability, while the sleek black design pairs effortlessly with jeans, joggers, or shorts. Step confidently with these versatile sneakers that merge style, performance, and iconic Adidas heritage into one must-have footwear essential.", sizes: [6, 7, 8, 9, 10], soldSizes: [10] },
     ],
@@ -203,7 +203,7 @@ export const products = [
       { name: 'Uptempo White', hex: '#39FF14',
     description: "Step into style and comfort with the Nike Air More Uptempo Low Full White, a must-have sneaker for sneaker enthusiasts and fashion-forward individuals. Featuring the iconic oversized “AIR” lettering in a sleek all-white finish, these sneakers deliver a bold yet versatile look that complements any outfit. Crafted with premium leather and durable materials, the Nike Air More Uptempo Low ensures long-lasting comfort, support, and style, making it perfect for casual wear, streetwear fashion, or light sports activities.\n\nDesigned for everyday wear, the full white colorway enhances versatility, pairing effortlessly with jeans, joggers, shorts, or athleisure ensembles. Equipped with responsive Air-Sole cushioning, these sneakers offer superior impact absorption and all-day comfort. Ideal for men and women seeking a combination of fashion and functionality, the Nike Air More Uptempo Low Full White is a timeless addition to any sneaker collection, merging classic basketball-inspired design with modern urban style.",
     sizes: [6, 7, 8, 9, 10],
-    soldSizes: [6, 8, 10] },
+    soldSizes: [6, 7, 8, 10] },
     ],
   },
   {
@@ -301,7 +301,7 @@ export const products = [
     colors: [
       { name: 'Orange grey', hex: '#39FF14',
     description: "Step up your sneaker game with the Money Kicz Grey Orange Shoes, combining bold style with everyday comfort. The sleek grey base is accented with vibrant orange highlights, creating a striking and energetic look that turns heads wherever you go.\n\nCrafted with premium materials, these sneakers offer lightweight cushioning, breathable support, and durable traction for all-day wear. Perfect for casual outings, gym sessions, or streetwear looks, the Money Kicz Grey Orange Shoes deliver both style and performance in one versatile package.",
-    sizes: [6, 7, 8, 9, 10], soldSizes: [9, 10]},
+    sizes: [6, 7, 8, 9, 10], soldSizes: [8, 9, 10]},
     ],
   },
   {
@@ -363,8 +363,10 @@ export const products = [
     },
     colors: [
       { name: 'Blue Red', hex: '#39FF14', 
-    description: "The Onitsuka Tiger Mexico 66 is an iconic sneaker that blends heritage design with everyday comfort. Featuring its signature blue and red stripes on a crisp white base, this shoe pays homage to vintage athletic style while staying relevant in modern streetwear culture. Crafted with premium leather and suede overlays, it offers both durability and a refined look that never goes out of style.\n\nLightweight, flexible, and versatile, the Mexico 66 is perfect for casual outings, travel, or daily wear. With its retro silhouette, cushioned insole, and timeless stripe design, it remains a favorite among sneaker enthusiasts who value comfort, quality, and heritage fashion. Step out in classic style with a sneaker that truly defines sneaker culture.",sizes: [6, 7, 8, 9, 10],soldSizes: [6, 8, 9] },
-      { name: 'Black Red', hex: '#39FF14', description: "The Onitsuka Tiger Mexico 66 is an iconic sneaker that blends heritage design with everyday comfort. Featuring its signature black and red stripes on a crisp white base, this shoe pays homage to vintage athletic style while staying relevant in modern streetwear culture. Crafted with premium leather and suede overlays, it offers both durability and a refined look that never goes out of style.\n\nLightweight, flexible, and versatile, the Mexico 66 is perfect for casual outings, travel, or daily wear. With its retro silhouette, cushioned insole, and timeless stripe design, it remains a favorite among sneaker enthusiasts who value comfort, quality, and heritage fashion. Step out in classic style with a sneaker that truly defines sneaker culture.",sizes: [6, 7, 8, 9, 10],soldSizes: [6, 7, 8, 9, 10] },
+    description: "The Onitsuka Tiger Mexico 66 is an iconic sneaker that blends heritage design with everyday comfort. Featuring its signature blue and red stripes on a crisp white base, this shoe pays homage to vintage athletic style while staying relevant in modern streetwear culture. Crafted with premium leather and suede overlays, it offers both durability and a refined look that never goes out of style.\n\nLightweight, flexible, and versatile, the Mexico 66 is perfect for casual outings, travel, or daily wear. With its retro silhouette, cushioned insole, and timeless stripe design, it remains a favorite among sneaker enthusiasts who value comfort, quality, and heritage fashion. Step out in classic style with a sneaker that truly defines sneaker culture.",
+    sizes: [6, 7, 8, 9, 10],soldSizes: [6, 7, 8, 9, 10] },
+      { name: 'Black Red', hex: '#39FF14', description: "The Onitsuka Tiger Mexico 66 is an iconic sneaker that blends heritage design with everyday comfort. Featuring its signature black and red stripes on a crisp white base, this shoe pays homage to vintage athletic style while staying relevant in modern streetwear culture. Crafted with premium leather and suede overlays, it offers both durability and a refined look that never goes out of style.\n\nLightweight, flexible, and versatile, the Mexico 66 is perfect for casual outings, travel, or daily wear. With its retro silhouette, cushioned insole, and timeless stripe design, it remains a favorite among sneaker enthusiasts who value comfort, quality, and heritage fashion. Step out in classic style with a sneaker that truly defines sneaker culture.",
+        sizes: [6, 7, 8, 9, 10],soldSizes: [6, 7, 8, 9, 10] },
     ],
   },
   {
@@ -436,7 +438,7 @@ export const products = [
     colors: [
       { name: 'Metallic White', hex: '#39FF14',
     description: "The Macpro Metallic White Running Sport Shoes combine sleek modern style with high-performance comfort. Designed with a glossy metallic white finish, these shoes stand out on the track, in the gym, or on the streets. The lightweight breathable upper keeps your feet cool, while the cushioned midsole ensures soft landings and powerful take-offs with every step.\n\nBuilt with a durable outsole that delivers strong grip and stability, these running sport shoes are perfect for intense workouts, long runs, or casual everyday wear. Stylish yet versatile, the Macpro Metallic White Running Shoes bring together fashion and functionality, making them an essential pick for athletes and trendsetters alike.",
-    sizes: [6, 7, 8, 9, 10],soldSizes: [6, 8, 10] },
+    sizes: [6, 7, 8, 9, 10],soldSizes: [6, 7, 8, 9, 10] },
     ],
   },
   {
@@ -480,7 +482,7 @@ export const products = [
     colors: [
       { name: 'Feather White', hex: '#39FF14',
     description: "New Balance Running Shoes offer the perfect blend of comfort, support, and performance for runners of all levels. Their lightweight, breathable upper keeps feet cool and dry, while advanced cushioning in the midsole absorbs impact and provides responsive energy return, helping you run farther with less fatigue. Ideal for daily training, jogging, or competitive running, these shoes ensure stability, support, and long-lasting durability.\n\nWith a durable rubber outsole and superior traction, New Balance Running Shoes provide reliable grip on any surface. The reinforced heel and sleek design enhance stability and style, making them suitable for both athletic and everyday wear. Whether you’re a serious runner or enjoy casual runs, these shoes deliver unmatched comfort, performance, and modern design.",
-    sizes: [6, 7, 8, 9, 10], soldSizes: [6, 9]},
+    sizes: [6, 7, 8, 9, 10], soldSizes: [6, 9, 10]},
     ],
   },
   {
@@ -608,7 +610,7 @@ export const products = [
     colors: [
       { name: 'Matt Black', hex: '#000000',
     description: "Canvas Matt Black Shoes offer a perfect blend of style, comfort, and versatility. Crafted with durable canvas material, these shoes provide lightweight wear and breathability, making them ideal for everyday use. The sleek matt black finish gives a modern, minimalist look that pairs effortlessly with casual or semi-formal outfits.\n\nDesigned with a cushioned insole and flexible rubber outsole, these shoes ensure all-day comfort and reliable grip on various surfaces. Their low-profile silhouette and classic lace-up design make them a timeless wardrobe staple, suitable for work, college, or casual outings. Durable, stylish, and easy to maintain, Canvas Matt Black Shoes are a must-have for any footwear collection.",
-    sizes: [6, 7, 8, 9, 10], soldSizes: [6, 7, 9]},
+    sizes: [6, 7, 8, 9, 10], soldSizes: [6, 7, 8, 9, 10]},
     ],
   },
   {
@@ -659,7 +661,7 @@ export const products = [
       { name: 'Sky Blue', hex: '#5ba8f0ff',
         description: "Step up your streetwear game with the Sky Drift Low Blue Sneakers, designed to bring both comfort and confidence to your everyday look. The sneaker features a premium sky-blue suede finish paired with a durable white sole that ensures excellent grip and stability on all surfaces. Its sleek black-outlined swoosh adds a bold touch, making it stand out effortlessly in any outfit combination.\n\nCrafted for those who appreciate both fashion and function, these sneakers provide cushioned support and a lightweight feel for all-day wear. The breathable interior lining keeps your feet cool and fresh, while the modern low-cut silhouette enhances flexibility and movement. Perfect for casual outings, gym sessions, or street-style looks — the Sky Drift Low Blue Sneakers are your ultimate go-to pair for every occasion.",
     sizes: [6, 7, 8, 9, 10],
-    soldSizes: [6, 10] },
+    soldSizes: [6, 8, 10] },
       { name: 'Olive Mist Green', hex: '#5ba8f0ff',
         description: "Introducing the Sky Drift Low – Olive Mist Edition, a perfect fusion of earthy tones and modern streetwear appeal. Crafted with a soft olive-green suede upper, this sneaker offers a calm, natural vibe that pairs effortlessly with any outfit. The clean white midsole and bold black-outlined swoosh deliver a fresh contrast, enhancing the overall aesthetic and giving the shoe a timeless urban look.\n\nEngineered for everyday comfort, the Olive Mist features a cushioned sole for all-day support and a breathable lining to keep your feet cool during long hours of wear. Whether you’re out for a casual walk or styling your favorite streetwear fit, these sneakers bring the perfect mix of durability, versatility, and laid-back fashion.",
     sizes: [6, 7, 8, 9, 10],
@@ -696,7 +698,47 @@ export const products = [
       { name: 'Sky Blue', hex: '#5ba8f0ff',
         description: "Step up your streetwear game with the Sky Drift Low Blue Sneakers, designed to bring both comfort and confidence to your everyday look. The sneaker features a premium sky-blue suede finish paired with a durable white sole that ensures excellent grip and stability on all surfaces. Its sleek black-outlined swoosh adds a bold touch, making it stand out effortlessly in any outfit combination.\n\nCrafted for those who appreciate both fashion and function, these sneakers provide cushioned support and a lightweight feel for all-day wear. The breathable interior lining keeps your feet cool and fresh, while the modern low-cut silhouette enhances flexibility and movement. Perfect for casual outings, gym sessions, or street-style looks — the Sky Drift Low Blue Sneakers are your ultimate go-to pair for every occasion.",
     sizes: [6, 7, 8, 9, 10],
-    soldSizes: [6, 10] },
+    soldSizes: [6, 8, 10] },
+    ],
+  },
+  {
+    id: 'shoe-29',
+    name: 'K-Flex Slip-On',
+    price: 649,
+    media: {
+      'Grey White': [
+        { type: 'image', src: '/cabinMaterials/P36.jpg' },
+        { type: 'image', src: '/cabinMaterials/P36.1.jpg' },
+        { type: 'image', src: '/cabinMaterials/P36.2.jpg' },
+        { type: 'image', src: '/cabinMaterials/P36.3.jpg' },
+        { type: 'image', src: '/cabinMaterials/P36.4.jpg' },
+      ]
+    },
+    colors: [
+      { name: 'Grey White', hex: '#5ba8f0ff',
+        description: "Step into effortless comfort and modern style with the K-Flex Knit Slip-On Sneakers. Designed for those who value both performance and fashion, these sneakers feature a breathable knit upper that adapts perfectly to your foot shape. The flexible slip-on design eliminates the hassle of laces, providing a snug yet easy fit for all-day wear. Its sleek grey tone complemented by the crisp white sole makes it versatile enough for casual outings, gym sessions, or everyday errands.\n\nEngineered with a lightweight cushioned sole, the K-Flex ensures optimal support and shock absorption with every step. The durable rubber outsole provides excellent grip on various surfaces, keeping you confident and comfortable on the move. Whether paired with joggers, jeans, or shorts, these sneakers add a touch of sporty elegance to any look — making them a must-have addition to your modern footwear collection.",
+    sizes: [6, 7, 8, 9, 10],
+    soldSizes: [6, 9] },
+    ],
+  },
+  {
+    id: 'shoe-30',
+    name: 'K-Flex Slip-On',
+    price: 649,
+    media: {
+      'All Black': [
+        { type: 'image', src: '/cabinMaterials/P37.jpg' },
+        { type: 'image', src: '/cabinMaterials/P37.1.jpg' },
+        { type: 'image', src: '/cabinMaterials/P37.2.jpg' },
+        { type: 'image', src: '/cabinMaterials/P37.3.jpg' },
+        { type: 'image', src: '/cabinMaterials/P37.4.jpg' },
+      ]
+    },
+    colors: [
+      { name: 'All Black', hex: '#000000',
+        description: "Experience the perfect blend of performance and everyday comfort with the K-Flex Air Glide Sneakers. Crafted with a breathable mesh-knit upper, these sneakers provide maximum ventilation while maintaining a sleek, modern design. The slip-on build ensures effortless wearability, while the cushioned midsole delivers all-day comfort whether you’re walking, training, or simply on the go. The signature “K” logo adds a touch of premium style, making these sneakers ideal for both casual and active lifestyles.\n\nThe all-black tone gives a bold, versatile look that pairs effortlessly with any outfit — from sportswear to streetwear. Designed for durability and traction, the thick sole ensures a stable and comfortable step across various surfaces. Lightweight yet sturdy, the K-Flex Air Glide Sneakers are your go-to choice for long-lasting comfort, everyday use, and standout style in every stride.",
+    sizes: [6, 7, 8, 9, 10],
+    soldSizes: [10] },
     ],
   },
 ];

@@ -13,10 +13,10 @@ export const heroSliderProducts = [
     image: '/cabinMaterials/P7.jpg', // main hero image
   },
   {
-    id: 'shoe-11',
-    name: 'Canvas',
+    id: 'shoe-30',
+    name: 'K-Flex Slip-On',
     price: 649,
-    image: '/cabinMaterials/P12.jpg',
+    image: '/cabinMaterials/P37.jpg',
   },
   {
     id: 'shoe-2',
@@ -31,10 +31,10 @@ export const heroSliderProducts = [
       image: '/cabinMaterials/P32.jpg',
     },
   {
-    id: 'shoe-15',
-    name: 'Ziplite Grip-2',
+    id: 'shoe-29',
+    name: 'K-Flex Slip-On',
     price: 649,
-    image: '/cabinMaterials/P28.jpg',
+    image: '/cabinMaterials/P36.jpg',
   },
   {
     id: 'shoe-13',

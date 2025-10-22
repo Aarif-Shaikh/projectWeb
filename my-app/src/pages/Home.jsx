@@ -122,7 +122,11 @@ function FeaturedCard({ product }) {
 
 
 export default function Home() {
-  const featuredProducts = products.slice(0, 28);
+  const shuffledProducts = React.useMemo(() => {
+    const shuffled = [...products].sort(() => Math.random() - 0.5);
+    return shuffled.slice(0, 40);
+  }, []);
+
 
   // 🔥 Rotating Quotes
   const quotes = ["Step into Style", "Walk the Trend", "Elevate Your Look"];
@@ -195,13 +199,14 @@ export default function Home() {
       </section>
 
       <section className="container mx-auto mt-12">
-        <h2 className="text-xl md:text-2xl font-bold mb-4">Featured Products</h2>
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {featuredProducts.map((product) => (
-            <FeaturedCard key={product.id} product={product} />
-          ))}
-        </div>
-      </section>
+  <h2 className="text-xl md:text-2xl font-bold mb-4">Featured Products</h2>
+  <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+    {shuffledProducts.map((product) => (
+      <FeaturedCard key={product.id} product={product} />
+    ))}
+  </div>
+</section>
+
     </>
   );
 }

@@ -118,10 +118,18 @@ export default function Shop() {
   const queryParams = new URLSearchParams(location.search);
   const q = queryParams.get('q')?.toLowerCase().trim() || '';
 
-  const filteredProducts = React.useMemo(() => {
-    if (!q) return products;
-    return products.filter((p) => p.name.toLowerCase().includes(q));
-  }, [q]);
+  // ✅ Shuffle products each time page loads
+const shuffledProducts = React.useMemo(() => {
+  const shuffled = [...products].sort(() => Math.random() - 0.5);
+  return shuffled;
+}, []);
+
+// ✅ Apply search on top of shuffled products
+const filteredProducts = React.useMemo(() => {
+  if (!q) return shuffledProducts;
+  return shuffledProducts.filter((p) => p.name.toLowerCase().includes(q));
+}, [q, shuffledProducts]);
+
 
   return (
     <>
