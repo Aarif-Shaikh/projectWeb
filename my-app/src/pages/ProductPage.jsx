@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
-import { getProductById, getRelatedProducts } from '@/data/products.js';
+import { getProductById, products } from '@/data/products.js';
 import { Button } from '@/components/ui/button.jsx';
 import { useCart } from '@/store/CartContext.jsx';
 import { toast } from '@/components/ui/use-toast.js';
@@ -12,7 +12,16 @@ export default function ProductPage() {
   const { productId } = useParams();
   const navigate = useNavigate();
   const product = getProductById(productId);
-  const relatedProducts = getRelatedProducts(productId);
+  const relatedProducts = React.useMemo(() => {
+  // Get all products except the one currently viewed
+  const otherProducts = products.filter((p) => p.id !== productId);
+  // Randomize order
+  const shuffled = [...otherProducts].sort(() => Math.random() - 0.5);
+  // Limit how many to show (you can adjust 6 to any number)
+  return shuffled.slice(0, 6);
+}, [productId]);
+
+
   const { addItem } = useCart();
 
   const [selectedColor, setSelectedColor] = React.useState(null);
@@ -163,15 +172,12 @@ export default function ProductPage() {
             </p>
 
             <div className="text-white/70 mt-4 space-y-4">
-  {(selectedColor?.description || product?.description || '')
-    ?.split('\n\n')
-    .map((para, index) => (
-      <p key={index}>{para}</p>
-    ))}
-</div>
-
-
-
+              {(selectedColor?.description || product?.description || '')
+                ?.split('\n\n')
+                .map((para, index) => (
+                  <p key={index}>{para}</p>
+                ))}
+            </div>
 
             <div className="mt-6">
               <p className="text-sm font-semibold">Color: <span className="text-white/80">{selectedColor?.name}</span></p>

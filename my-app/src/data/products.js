@@ -182,7 +182,7 @@ export const products = [
       { name: 'White Trefoil', hex: '#39FF14', 
     description: "Elevate your sneaker game with the Adidas Forum Sneakers, featuring the iconic three black stripes and a bold black Trefoil logo. Designed for those who appreciate classic style with a modern twist, these sneakers combine streetwear appeal with timeless athletic heritage. Perfect for casual outings, gym sessions, or adding a sporty edge to your everyday look.\n\nCrafted with premium materials, Adidas Forum Sneakers offer exceptional comfort, durability, and support. The cushioned midsole and sturdy outsole ensure all-day wearability, while the sleek black design pairs effortlessly with jeans, joggers, or shorts. Step confidently with these versatile sneakers that merge style, performance, and iconic Adidas heritage into one must-have footwear essential.",sizes: [6, 7, 8, 9, 10], soldSizes: [6, 7, 8, 10] },
       { name: 'Black Trefoil', hex: '#39FF14',
-    description: "Elevate your sneaker game with the Adidas Forum Sneakers, featuring the iconic three white stripes and a bold white Trefoil logo. Designed for those who appreciate classic style with a modern twist, these sneakers combine streetwear appeal with timeless athletic heritage. Perfect for casual outings, gym sessions, or adding a sporty edge to your everyday look.\n\nCrafted with premium materials, Adidas Forum Sneakers offer exceptional comfort, durability, and support. The cushioned midsole and sturdy outsole ensure all-day wearability, while the sleek black design pairs effortlessly with jeans, joggers, or shorts. Step confidently with these versatile sneakers that merge style, performance, and iconic Adidas heritage into one must-have footwear essential.", sizes: [6, 7, 8, 9, 10], soldSizes: [10] },
+    description: "Elevate your sneaker game with the Adidas Forum Sneakers, featuring the iconic three white stripes and a bold white Trefoil logo. Designed for those who appreciate classic style with a modern twist, these sneakers combine streetwear appeal with timeless athletic heritage. Perfect for casual outings, gym sessions, or adding a sporty edge to your everyday look.\n\nCrafted with premium materials, Adidas Forum Sneakers offer exceptional comfort, durability, and support. The cushioned midsole and sturdy outsole ensure all-day wearability, while the sleek black design pairs effortlessly with jeans, joggers, or shorts. Step confidently with these versatile sneakers that merge style, performance, and iconic Adidas heritage into one must-have footwear essential.", sizes: [6, 7, 8, 9, 10], soldSizes: [8, 10] },
     ],
   },
   {
@@ -237,7 +237,7 @@ export const products = [
         name: 'White', hex: '#39FF14',
     description: "Elevate your sneaker game with the Adidas Forum Sneakers, featuring the iconic three black stripes and a bold black Trefoil logo. Designed for those who appreciate classic style with a modern twist, these sneakers combine streetwear appeal with timeless athletic heritage. Perfect for casual outings, gym sessions, or adding a sporty edge to your everyday look.\n\nCrafted with premium materials, Adidas Forum Sneakers offer exceptional comfort, durability, and support. The cushioned midsole and sturdy outsole ensure all-day wearability, while the sleek black design pairs effortlessly with jeans, joggers, or shorts. Step confidently with these versatile sneakers that merge style, performance, and iconic Adidas heritage into one must-have footwear essential.", 
     sizes: [6, 7, 8, 9, 10],
-        soldSizes: [6, 7, 8, 10]
+        soldSizes: [6, 7, 8, 9, 10]
       },
     ],
   },
@@ -526,7 +526,7 @@ export const products = [
       { name: 'Gel White', hex: '#39FF14',
     description: "Asics Excite 11 Shoes are designed for runners seeking comfort, support, and style in every stride. Featuring a breathable mesh upper, these shoes provide excellent ventilation to keep your feet cool during workouts or long runs. The cushioned midsole delivers responsive shock absorption, ensuring smooth and comfortable movement while reducing fatigue.\n\nThe durable outsole offers reliable traction on multiple surfaces, making them suitable for both indoor and outdoor activities. With a modern, sleek design, Asics Excite 11 Shoes combine performance and aesthetics, making them perfect for running, training, or casual wear. Their lightweight construction and supportive fit help you stay agile and confident in every step.",
     sizes: [6, 7, 8, 9, 10],
-    soldSizes: [6, 9, 10] },
+    soldSizes: [6, 7, 9, 10] },
     ],
   },
   {
@@ -568,7 +568,7 @@ export const products = [
     colors: [
       { name: 'Venture Grey', hex: '#39FF14',
     description: "Asics Gel Venture 9 Shoes are designed for trail runners and outdoor enthusiasts who need reliable performance and comfort. Featuring durable synthetic and mesh uppers, these shoes provide breathability while offering robust protection against rough terrains. The signature GEL cushioning in the heel ensures shock absorption, making every step smooth and reducing impact on your joints.\n\nEquipped with a sturdy rubber outsole and aggressive tread pattern, the Gel Venture 9 delivers excellent traction on wet, rocky, or uneven surfaces. Lightweight yet supportive, these shoes are perfect for daily runs, hiking, or casual outdoor adventures, combining functional design with a sleek, versatile style that suits both sports and everyday wear.",
-    sizes: [6, 7, 8, 9, 10], soldSizes: [6, 10]},
+    sizes: [6, 7, 8, 9, 10], soldSizes: [6, 8, 10]},
     ],
   },
   {
@@ -665,7 +665,7 @@ export const products = [
       { name: 'Olive Mist Green', hex: '#5ba8f0ff',
         description: "Introducing the Sky Drift Low – Olive Mist Edition, a perfect fusion of earthy tones and modern streetwear appeal. Crafted with a soft olive-green suede upper, this sneaker offers a calm, natural vibe that pairs effortlessly with any outfit. The clean white midsole and bold black-outlined swoosh deliver a fresh contrast, enhancing the overall aesthetic and giving the shoe a timeless urban look.\n\nEngineered for everyday comfort, the Olive Mist features a cushioned sole for all-day support and a breathable lining to keep your feet cool during long hours of wear. Whether you’re out for a casual walk or styling your favorite streetwear fit, these sneakers bring the perfect mix of durability, versatility, and laid-back fashion.",
     sizes: [6, 7, 8, 9, 10],
-    soldSizes: [10] },
+    soldSizes: [7, 9, 10] },
     ],
   },
   {
@@ -694,7 +694,7 @@ export const products = [
       { name: 'Olive Mist Green', hex: '#5ba8f0ff',
         description: "Introducing the Sky Drift Low – Olive Mist Edition, a perfect fusion of earthy tones and modern streetwear appeal. Crafted with a soft olive-green suede upper, this sneaker offers a calm, natural vibe that pairs effortlessly with any outfit. The clean white midsole and bold black-outlined swoosh deliver a fresh contrast, enhancing the overall aesthetic and giving the shoe a timeless urban look.\n\nEngineered for everyday comfort, the Olive Mist features a cushioned sole for all-day support and a breathable lining to keep your feet cool during long hours of wear. Whether you’re out for a casual walk or styling your favorite streetwear fit, these sneakers bring the perfect mix of durability, versatility, and laid-back fashion.",
     sizes: [6, 7, 8, 9, 10],
-    soldSizes: [10] },
+    soldSizes: [7, 9, 10] },
       { name: 'Sky Blue', hex: '#5ba8f0ff',
         description: "Step up your streetwear game with the Sky Drift Low Blue Sneakers, designed to bring both comfort and confidence to your everyday look. The sneaker features a premium sky-blue suede finish paired with a durable white sole that ensures excellent grip and stability on all surfaces. Its sleek black-outlined swoosh adds a bold touch, making it stand out effortlessly in any outfit combination.\n\nCrafted for those who appreciate both fashion and function, these sneakers provide cushioned support and a lightweight feel for all-day wear. The breathable interior lining keeps your feet cool and fresh, while the modern low-cut silhouette enhances flexibility and movement. Perfect for casual outings, gym sessions, or street-style looks — the Sky Drift Low Blue Sneakers are your ultimate go-to pair for every occasion.",
     sizes: [6, 7, 8, 9, 10],
@@ -738,7 +738,28 @@ export const products = [
       { name: 'All Black', hex: '#000000',
         description: "Experience the perfect blend of performance and everyday comfort with the K-Flex Air Glide Sneakers. Crafted with a breathable mesh-knit upper, these sneakers provide maximum ventilation while maintaining a sleek, modern design. The slip-on build ensures effortless wearability, while the cushioned midsole delivers all-day comfort whether you’re walking, training, or simply on the go. The signature “K” logo adds a touch of premium style, making these sneakers ideal for both casual and active lifestyles.\n\nThe all-black tone gives a bold, versatile look that pairs effortlessly with any outfit — from sportswear to streetwear. Designed for durability and traction, the thick sole ensures a stable and comfortable step across various surfaces. Lightweight yet sturdy, the K-Flex Air Glide Sneakers are your go-to choice for long-lasting comfort, everyday use, and standout style in every stride.",
     sizes: [6, 7, 8, 9, 10],
-    soldSizes: [10] },
+    soldSizes: [7, 10] },
+    ],
+  },
+  {
+    id: 'shoe-31',
+    name: 'Adidas Steet Pulse',
+    price: 699,
+    media: {
+      'Black Blue': [
+        { type: 'image', src: '/cabinMaterials/P38.jpg' },
+        { type: 'image', src: '/cabinMaterials/P38.1.jpg' },
+        { type: 'image', src: '/cabinMaterials/P38.2.jpg' },
+        { type: 'image', src: '/cabinMaterials/P38.3.jpg' },
+        { type: 'image', src: '/cabinMaterials/P38.4.jpg' },
+        { type: 'image', src: '/cabinMaterials/P38.5.jpg' },
+      ]
+    },
+    colors: [
+      { name: 'Black Blue', hex: '#000000',
+        description: "Step up your sneaker game with the Adidas Street Pulse Vibe, a perfect blend of sporty energy and modern street style. Designed for those who appreciate comfort without compromising on looks, these shoes feature a sleek black upper complemented by signature white stripes and a subtle light blue accent at the heel. The cushioned midsole provides superior comfort and support, making it ideal for everyday wear — whether you’re hitting the streets, gym, or just hanging out with friends.\n\nBuilt with durable materials and precision detailing, the Street Pulse Vibe ensures long-lasting wear and effortless performance. Its textured sole offers excellent grip and traction on various surfaces, while the contemporary design adds a bold edge to any outfit. Stylish, versatile, and comfortable — this pair is a must-have addition to your sneaker collection.",
+    sizes: [6, 7, 8, 9, 10],
+    soldSizes: [6] },
     ],
   },
 ];

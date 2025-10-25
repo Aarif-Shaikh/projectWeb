@@ -1,6 +1,12 @@
 
 export const heroSliderProducts = [
   {
+    id: 'shoe-31',
+    name: 'Adidas Street Pulse',
+    price: 699,
+    image: '/cabinMaterials/P38.jpg', // main hero image
+  },
+  {
     id: 'shoe-27',
     name: 'Sky Drift Low',
     price: 699,
