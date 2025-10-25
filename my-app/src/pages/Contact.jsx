@@ -90,7 +90,7 @@ export default function Contact() {
           <div className="bg-white/5 backdrop-blur p-6 rounded-2xl border border-white/10 text-center">
             <MapPin className="mx-auto mb-3 text-fuchsia-400" size={28} />
             <h3 className="text-white font-semibold">Location</h3>
-            <p className="text-sm text-white/70">Thane, India</p>
+            <p className="text-sm text-white/70">Thane, Mumbra</p>
           </div>
         </div>
 
@@ -199,7 +199,7 @@ export default function Contact() {
         <div className="mt-20">
           <h2 className="text-2xl font-bold mb-4 text-center">Visit our store</h2>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.756024232584!2d73.0287989!3d19.162153999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bf71fd736d99%3A0xa74cc2216702b2be!2sMUMBAI%20CHAAT!5e0!3m2!1sen!2sin!4v1758179705682!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15073.59584211335!2d73.01366914250434!3d19.17776927976525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bf13962484c5%3A0xfceeecbe9f00ab05!2sSAIFE%20BAKE%20SHOP!5e0!3m2!1sen!2sin!4v1761382708918!5m2!1sen!2sin"
             className="w-full h-80 rounded-2xl border border-white/10"
             loading="lazy"
           ></iframe>

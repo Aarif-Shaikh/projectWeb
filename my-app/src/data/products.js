@@ -743,7 +743,7 @@ export const products = [
   },
   {
     id: 'shoe-31',
-    name: 'Adidas Steet Pulse',
+    name: 'Adidas Street Pulse',
     price: 699,
     media: {
       'Black Blue': [
