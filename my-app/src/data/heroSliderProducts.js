@@ -1,6 +1,12 @@
 
 export const heroSliderProducts = [
   {
+    id: 'shoe-32',
+    name: 'Airwave Nova Boost',
+    price: 699,
+    image: '/cabinMaterials/P39.jpg', // main hero image
+  },
+  {
     id: 'shoe-31',
     name: 'Adidas Street Pulse',
     price: 699,
@@ -26,7 +32,7 @@ export const heroSliderProducts = [
   },
   {
     id: 'shoe-2',
-    name: 'Midnight High-Top',
+    name: 'Slip-On Loafer',
     price: 600,
     image: '/cabinMaterials/P17.jpg',
   },
