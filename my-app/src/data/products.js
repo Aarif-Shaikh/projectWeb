@@ -25,6 +25,14 @@ export const products = [
     name: 'Slip-On Loafer',
     price: 600,
     media: {
+      'Pure Black': [
+        { type: 'image', src: '/cabinMaterials/P17.jpg' },
+        { type: 'image', src: '/cabinMaterials/P17.1.jpg' },
+        { type: 'image', src: '/cabinMaterials/P17.2.jpg' },
+        { type: 'image', src: '/cabinMaterials/P17.3.jpg' },
+        { type: 'image', src: '/cabinMaterials/P17.4.jpg' },
+        { type: 'image', src: '/cabinMaterials/P17.5.jpg' }
+      ],
       'Pure White': [
         { type: 'image', src: '/cabinMaterials/P1.jpg' },
         { type: 'image', src: '/cabinMaterials/P1.1.jpg' },
@@ -34,22 +42,14 @@ export const products = [
         { type: 'image', src: '/cabinMaterials/P1.5.jpg' },
         { type: 'image', src: '/cabinMaterials/P1.6.jpg' }
       ],
-      'Pure Black': [
-        { type: 'image', src: '/cabinMaterials/P17.jpg' },
-        { type: 'image', src: '/cabinMaterials/P17.1.jpg' },
-        { type: 'image', src: '/cabinMaterials/P17.2.jpg' },
-        { type: 'image', src: '/cabinMaterials/P17.3.jpg' },
-        { type: 'image', src: '/cabinMaterials/P17.4.jpg' },
-        { type: 'image', src: '/cabinMaterials/P17.5.jpg' }
-      ],
     },
     colors: [
-      { name: 'Pure White', hex: '#FFFFFF', 
-        description: "Step into effortless style and comfort with these Pure White Slip-On Loafers. Designed for modern individuals who value convenience and elegance, these loafers are perfect for casual outings, office wear, or weekend getaways. The sleek all-white design adds a touch of sophistication to any outfit, while the slip-on style ensures easy wear and a snug, comfortable fit throughout the day.  \n\nCrafted with premium materials, these loafers provide lightweight cushioning, durability, and breathability for all-day comfort. Their versatile design pairs seamlessly with jeans, chinos, or shorts, making them a must-have for men and women seeking stylish, practical footwear that blends fashion with functionality.",
-        sizes: [6, 7, 8, 9, 10], soldSizes: [6, 7, 8, 9, 10]},
       { name: 'Pure Black', hex: '#17202A',
         description: "Step into effortless style and comfort with these Pure Black Slip-On Loafers. Designed for modern individuals who value convenience and elegance, these loafers are perfect for casual outings, office wear, or weekend getaways. The sleek all-black design adds a touch of sophistication to any outfit, while the slip-on style ensures easy wear and a snug, comfortable fit throughout the day.\n\nCrafted with premium materials, these loafers provide lightweight cushioning, durability, and breathability for all-day comfort. Their versatile design pairs seamlessly with jeans, chinos, or shorts, making them a must-have for men and women seeking stylish, practical footwear that blends fashion with functionality.",
         sizes: [6, 7, 8, 9, 10], soldSizes: [7, 8, 10]},
+      { name: 'Pure White', hex: '#FFFFFF', 
+        description: "Step into effortless style and comfort with these Pure White Slip-On Loafers. Designed for modern individuals who value convenience and elegance, these loafers are perfect for casual outings, office wear, or weekend getaways. The sleek all-white design adds a touch of sophistication to any outfit, while the slip-on style ensures easy wear and a snug, comfortable fit throughout the day.  \n\nCrafted with premium materials, these loafers provide lightweight cushioning, durability, and breathability for all-day comfort. Their versatile design pairs seamlessly with jeans, chinos, or shorts, making them a must-have for men and women seeking stylish, practical footwear that blends fashion with functionality.",
+        sizes: [6, 7, 8, 9, 10], soldSizes: [6, 7, 8, 9, 10]},
     ],
   },
   {
@@ -57,6 +57,15 @@ export const products = [
     name: 'Puma Ferrari',
     price: 699,
     media: {
+      'Classic Red': [
+        { type: 'image', src: '/cabinMaterials/P32.jpg' },
+        { type: 'image', src: '/cabinMaterials/P32.1.jpg' },
+        { type: 'image', src: '/cabinMaterials/P32.2.jpg' },
+        { type: 'image', src: '/cabinMaterials/P32.3.jpg' },
+        { type: 'image', src: '/cabinMaterials/P32.4.jpg' },
+        { type: 'image', src: '/cabinMaterials/P32.5.jpg' },
+        { type: 'image', src: '/cabinMaterials/P32.6.jpg' }
+      ],
       'Classic Blue': [
         { type: 'image', src: '/cabinMaterials/P2.jpg' },
         { type: 'image', src: '/cabinMaterials/P2.1.jpg' },
@@ -67,26 +76,17 @@ export const products = [
         { type: 'image', src: '/cabinMaterials/P2.6.jpg' },
         { type: 'image', src: '/cabinMaterials/P2.7.jpg' }
       ],
-      'Classic Red': [
-        { type: 'image', src: '/cabinMaterials/P32.jpg' },
-        { type: 'image', src: '/cabinMaterials/P32.1.jpg' },
-        { type: 'image', src: '/cabinMaterials/P32.2.jpg' },
-        { type: 'image', src: '/cabinMaterials/P32.3.jpg' },
-        { type: 'image', src: '/cabinMaterials/P32.4.jpg' },
-        { type: 'image', src: '/cabinMaterials/P32.5.jpg' },
-        { type: 'image', src: '/cabinMaterials/P32.6.jpg' }
-      ],
     },
-    colors: [
+    colors: [   
+      { name: 'Classic Red', hex: '#34495E',
+        description: "Unleash speed and style with the Puma Ferrari Edition Shoes, crafted for fans of performance and luxury alike. Inspired by the iconic Ferrari racing legacy, these sneakers combine cutting-edge Puma technology with a sleek, automotive-inspired design. Perfect for casual wear, track days, or adding a sporty edge to your everyday outfit, these shoes bring the thrill of the racetrack to your feet.\n\nEngineered with premium materials, the Puma Ferrari Edition Shoes offer exceptional comfort, lightweight support, and durable traction for all-day wear. With their bold red accents, Ferrari branding, and high-quality craftsmanship, these sneakers are a must-have for motorsport enthusiasts and style-conscious individuals seeking statement footwear that merges speed, precision, and fashion.",
+         sizes: [6, 7, 8, 9, 10], soldSizes: [6] },
       {
         name: 'Classic Blue', hex: '#212121',
         description: "Unleash speed and style with the Puma Ferrari Edition Shoes, crafted for fans of performance and luxury alike. Inspired by the iconic Ferrari racing legacy, these sneakers combine cutting-edge Puma technology with a sleek, automotive-inspired design. Perfect for casual wear, track days, or adding a sporty edge to your everyday outfit, these shoes bring the thrill of the racetrack to your feet.\n\nEngineered with premium materials, the Puma Ferrari Edition Shoes offer exceptional comfort, lightweight support, and durable traction for all-day wear. With their bold red accents, Ferrari branding, and high-quality craftsmanship, these sneakers are a must-have for motorsport enthusiasts and style-conscious individuals seeking statement footwear that merges speed, precision, and fashion.",
          sizes: [6, 7, 8, 9, 10],
-        soldSizes: [6, 7, 8, 10]
+        soldSizes: [6, 7, 8, 9, 10]
       },
-      { name: 'Classic Red', hex: '#34495E',
-        description: "Unleash speed and style with the Puma Ferrari Edition Shoes, crafted for fans of performance and luxury alike. Inspired by the iconic Ferrari racing legacy, these sneakers combine cutting-edge Puma technology with a sleek, automotive-inspired design. Perfect for casual wear, track days, or adding a sporty edge to your everyday outfit, these shoes bring the thrill of the racetrack to your feet.\n\nEngineered with premium materials, the Puma Ferrari Edition Shoes offer exceptional comfort, lightweight support, and durable traction for all-day wear. With their bold red accents, Ferrari branding, and high-quality craftsmanship, these sneakers are a must-have for motorsport enthusiasts and style-conscious individuals seeking statement footwear that merges speed, precision, and fashion.",
-         sizes: [6, 7, 8, 9, 10], soldSizes: [6] },
     ],
   },
   {
@@ -156,16 +156,6 @@ export const products = [
     name: 'Adidas Forum',
     price: 699,
     media: {
-      'White Trefoil': [
-        { type: 'image', src: '/cabinMaterials/P6.jpg' },
-        { type: 'image', src: '/cabinMaterials/P6.1.jpg' },
-        { type: 'image', src: '/cabinMaterials/P6.2.jpg' },
-        { type: 'image', src: '/cabinMaterials/P6.3.jpg' },
-        { type: 'image', src: '/cabinMaterials/P6.4.jpg' },
-        { type: 'image', src: '/cabinMaterials/P6.5.jpg' },
-        { type: 'image', src: '/cabinMaterials/P6.6.jpg' },
-        { type: 'image', src: '/cabinMaterials/P6.7.jpg' }
-      ],
       'Black Trefoil': [
         { type: 'image', src: '/cabinMaterials/P15.jpg' },
         { type: 'image', src: '/cabinMaterials/P15.1.jpg' },
@@ -177,12 +167,22 @@ export const products = [
         { type: 'image', src: '/cabinMaterials/P15.7.jpg' },
         { type: 'image', src: '/cabinMaterials/P15.8.jpg' }
       ],
+      'White Trefoil': [
+        { type: 'image', src: '/cabinMaterials/P6.jpg' },
+        { type: 'image', src: '/cabinMaterials/P6.1.jpg' },
+        { type: 'image', src: '/cabinMaterials/P6.2.jpg' },
+        { type: 'image', src: '/cabinMaterials/P6.3.jpg' },
+        { type: 'image', src: '/cabinMaterials/P6.4.jpg' },
+        { type: 'image', src: '/cabinMaterials/P6.5.jpg' },
+        { type: 'image', src: '/cabinMaterials/P6.6.jpg' },
+        { type: 'image', src: '/cabinMaterials/P6.7.jpg' }
+      ],
     },
     colors: [
-      { name: 'White Trefoil', hex: '#39FF14', 
-    description: "Elevate your sneaker game with the Adidas Forum Sneakers, featuring the iconic three black stripes and a bold black Trefoil logo. Designed for those who appreciate classic style with a modern twist, these sneakers combine streetwear appeal with timeless athletic heritage. Perfect for casual outings, gym sessions, or adding a sporty edge to your everyday look.\n\nCrafted with premium materials, Adidas Forum Sneakers offer exceptional comfort, durability, and support. The cushioned midsole and sturdy outsole ensure all-day wearability, while the sleek black design pairs effortlessly with jeans, joggers, or shorts. Step confidently with these versatile sneakers that merge style, performance, and iconic Adidas heritage into one must-have footwear essential.",sizes: [6, 7, 8, 9, 10], soldSizes: [6, 7, 8, 10] },
       { name: 'Black Trefoil', hex: '#39FF14',
     description: "Elevate your sneaker game with the Adidas Forum Sneakers, featuring the iconic three white stripes and a bold white Trefoil logo. Designed for those who appreciate classic style with a modern twist, these sneakers combine streetwear appeal with timeless athletic heritage. Perfect for casual outings, gym sessions, or adding a sporty edge to your everyday look.\n\nCrafted with premium materials, Adidas Forum Sneakers offer exceptional comfort, durability, and support. The cushioned midsole and sturdy outsole ensure all-day wearability, while the sleek black design pairs effortlessly with jeans, joggers, or shorts. Step confidently with these versatile sneakers that merge style, performance, and iconic Adidas heritage into one must-have footwear essential.", sizes: [6, 7, 8, 9, 10], soldSizes: [8, 10] },
+      { name: 'White Trefoil', hex: '#39FF14', 
+    description: "Elevate your sneaker game with the Adidas Forum Sneakers, featuring the iconic three black stripes and a bold black Trefoil logo. Designed for those who appreciate classic style with a modern twist, these sneakers combine streetwear appeal with timeless athletic heritage. Perfect for casual outings, gym sessions, or adding a sporty edge to your everyday look.\n\nCrafted with premium materials, Adidas Forum Sneakers offer exceptional comfort, durability, and support. The cushioned midsole and sturdy outsole ensure all-day wearability, while the sleek black design pairs effortlessly with jeans, joggers, or shorts. Step confidently with these versatile sneakers that merge style, performance, and iconic Adidas heritage into one must-have footwear essential.",sizes: [6, 7, 8, 9, 10], soldSizes: [6, 7, 8, 9, 10] },
     ],
   },
   {
@@ -260,7 +260,7 @@ export const products = [
       { name: 'Armour Grey', hex: '#39FF14',
     description: "Step up your performance and style with the Under Armour Grey Shoe, designed for athletes and casual wearers alike. Featuring a sleek grey colorway, these sneakers combine modern aesthetics with superior functionality. Built with lightweight and breathable materials, they ensure optimal comfort and ventilation for all-day wear, whether you're hitting the gym, running errands, or enjoying outdoor activities. The durable construction provides long-lasting support, making them a reliable choice for any lifestyle.\n\nEquipped with cushioned soles and responsive midsoles, the Under Armour Grey Shoe delivers excellent shock absorption and enhanced stability during movement. The versatile design pairs effortlessly with athletic wear, jeans, or casual outfits, making it suitable for both training sessions and everyday use. Perfect for men and women seeking a balance of style, comfort, and performance, these grey sneakers are an essential addition to any footwear collection.",
     sizes: [6, 7, 8, 9, 10],
-    soldSizes: [8, 10]},
+    soldSizes: [7, 8, 10]},
     ],
   },
   {
@@ -760,6 +760,26 @@ export const products = [
         description: "Step up your sneaker game with the Adidas Street Pulse Vibe, a perfect blend of sporty energy and modern street style. Designed for those who appreciate comfort without compromising on looks, these shoes feature a sleek black upper complemented by signature white stripes and a subtle light blue accent at the heel. The cushioned midsole provides superior comfort and support, making it ideal for everyday wear — whether you’re hitting the streets, gym, or just hanging out with friends.\n\nBuilt with durable materials and precision detailing, the Street Pulse Vibe ensures long-lasting wear and effortless performance. Its textured sole offers excellent grip and traction on various surfaces, while the contemporary design adds a bold edge to any outfit. Stylish, versatile, and comfortable — this pair is a must-have addition to your sneaker collection.",
     sizes: [6, 7, 8, 9, 10],
     soldSizes: [6] },
+    ],
+  },
+  {
+    id: 'shoe-32',
+    name: 'Airwave Nova Boost',
+    price: 699,
+    media: {
+      'White & Black': [
+        { type: 'image', src: '/cabinMaterials/P39.jpg' },
+        { type: 'image', src: '/cabinMaterials/P39.1.jpg' },
+        { type: 'image', src: '/cabinMaterials/P39.2.jpg' },
+        { type: 'image', src: '/cabinMaterials/P39.3.jpg' },
+        { type: 'image', src: '/cabinMaterials/P39.4.jpg' },
+      ]
+    },
+    colors: [
+      { name: 'White & Black', hex: '#000000',
+        description: "Step into a new level of comfort and style with the Airwave Nova Boost Sneakers. Designed for those who love to blend fashion with performance, these sneakers feature a sleek white upper with glossy black detailing that adds a bold edge to your everyday look. The breathable mesh fabric ensures all-day comfort, while the sturdy sole with air cushioning offers superior support for long walks, workouts, or casual outings.\n\nCrafted with premium materials, the Airwave Nova Boost Sneakers are not just shoes — they’re a statement of modern street style. The futuristic sole design and smooth finish make them a standout piece in any outfit, whether paired with jeans, joggers, or athleisure wear. Perfect for those who value both aesthetics and function, these sneakers redefine what it means to move in style.",
+    sizes: [6, 7, 8, 9, 10],
+    soldSizes: [6, 8] },
     ],
   },
 ];
