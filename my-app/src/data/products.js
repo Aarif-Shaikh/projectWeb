@@ -105,7 +105,7 @@ export const products = [
     },
     colors: [
       { name: 'Navy Blue', hex: '#1F3A3D', 
-        description: "Elevate your running experience with Macpro Issi Running Shoes, designed for athletes and fitness enthusiasts who demand performance and style. These sneakers feature a sleek, modern design with a breathable mesh upper that ensures your feet stay cool and comfortable during long runs or intense workouts. The lightweight construction and responsive cushioning make every stride smooth and effortless.\n\nEngineered with high-grip rubber outsoles and ergonomic support, Macpro Issi Running Shoes deliver excellent traction and stability on various surfaces. Perfect for jogging, gym sessions, or casual wear, these versatile running shoes combine durability, comfort, and a sporty aesthetic, making them a must-have addition to any active lifestyle wardrobe.",sizes: [6, 7, 8, 9, 10], soldSizes: [6, 10]},
+        description: "Elevate your running experience with Macpro Issi Running Shoes, designed for athletes and fitness enthusiasts who demand performance and style. These sneakers feature a sleek, modern design with a breathable mesh upper that ensures your feet stay cool and comfortable during long runs or intense workouts. The lightweight construction and responsive cushioning make every stride smooth and effortless.\n\nEngineered with high-grip rubber outsoles and ergonomic support, Macpro Issi Running Shoes deliver excellent traction and stability on various surfaces. Perfect for jogging, gym sessions, or casual wear, these versatile running shoes combine durability, comfort, and a sporty aesthetic, making them a must-have addition to any active lifestyle wardrobe.",sizes: [6, 7, 8, 9, 10], soldSizes: [6, 7, 8, 10]},
     ],
   },
   {
@@ -203,7 +203,7 @@ export const products = [
       { name: 'Uptempo White', hex: '#39FF14',
     description: "Step into style and comfort with the Nike Air More Uptempo Low Full White, a must-have sneaker for sneaker enthusiasts and fashion-forward individuals. Featuring the iconic oversized “AIR” lettering in a sleek all-white finish, these sneakers deliver a bold yet versatile look that complements any outfit. Crafted with premium leather and durable materials, the Nike Air More Uptempo Low ensures long-lasting comfort, support, and style, making it perfect for casual wear, streetwear fashion, or light sports activities.\n\nDesigned for everyday wear, the full white colorway enhances versatility, pairing effortlessly with jeans, joggers, shorts, or athleisure ensembles. Equipped with responsive Air-Sole cushioning, these sneakers offer superior impact absorption and all-day comfort. Ideal for men and women seeking a combination of fashion and functionality, the Nike Air More Uptempo Low Full White is a timeless addition to any sneaker collection, merging classic basketball-inspired design with modern urban style.",
     sizes: [6, 7, 8, 9, 10],
-    soldSizes: [6, 7, 8, 10] },
+    soldSizes: [6, 7, 8, 9, 10] },
     ],
   },
   {
