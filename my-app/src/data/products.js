@@ -17,7 +17,7 @@ export const products = [
       { name: 'Black & White', hex: '#5D6D7E', 
         description:
       "Experience the perfect blend of style and performance with Onitsuka Tiger shoes. These iconic sneakers, known for their signature tiger stripes, combine heritage-inspired design with modern comfort, making them ideal for casual wear, gym sessions, or urban adventures. Crafted with premium materials, they offer lightweight cushioning, flexibility, and breathability for all-day comfort.\n\n Designed for men, women, and young adults, Onitsuka Tiger sneakers deliver superior traction and durability on multiple surfaces. Their versatile design pairs effortlessly with streetwear, athleisure, and casual outfits, making them a must-have for anyone seeking trendy, high-quality sneakers that merge fashion with functionality.",
-      sizes: [6, 7, 8, 9, 10], soldSizes: [6, 8, 9, 10]},
+      sizes: [6, 7, 8, 9, 10], soldSizes: [6, 7, 8, 9, 10]},
     ],
   },
   {
@@ -46,7 +46,7 @@ export const products = [
     colors: [
       { name: 'Pure Black', hex: '#17202A',
         description: "Step into effortless style and comfort with these Pure Black Slip-On Loafers. Designed for modern individuals who value convenience and elegance, these loafers are perfect for casual outings, office wear, or weekend getaways. The sleek all-black design adds a touch of sophistication to any outfit, while the slip-on style ensures easy wear and a snug, comfortable fit throughout the day.\n\nCrafted with premium materials, these loafers provide lightweight cushioning, durability, and breathability for all-day comfort. Their versatile design pairs seamlessly with jeans, chinos, or shorts, making them a must-have for men and women seeking stylish, practical footwear that blends fashion with functionality.",
-        sizes: [6, 7, 8, 9, 10], soldSizes: [7, 8, 10]},
+        sizes: [6, 7, 8, 9, 10], soldSizes: [6, 7, 8, 10]},
       { name: 'Pure White', hex: '#FFFFFF', 
         description: "Step into effortless style and comfort with these Pure White Slip-On Loafers. Designed for modern individuals who value convenience and elegance, these loafers are perfect for casual outings, office wear, or weekend getaways. The sleek all-white design adds a touch of sophistication to any outfit, while the slip-on style ensures easy wear and a snug, comfortable fit throughout the day.  \n\nCrafted with premium materials, these loafers provide lightweight cushioning, durability, and breathability for all-day comfort. Their versatile design pairs seamlessly with jeans, chinos, or shorts, making them a must-have for men and women seeking stylish, practical footwear that blends fashion with functionality.",
         sizes: [6, 7, 8, 9, 10], soldSizes: [6, 7, 8, 9, 10]},
@@ -127,7 +127,7 @@ export const products = [
         name: 'Boston White', hex: '#85C1E9',
     description: "Step out in timeless elegance with Full White Boston Casual Shoes, designed for those who appreciate minimalistic style and all-day comfort. The clean all-white design effortlessly complements any outfit, making these shoes perfect for casual outings, office wear, or weekend getaways. Their slip-on design ensures convenience, while providing a snug and comfortable fit for every occasion.\n\nCrafted with premium materials, Full White Boston Casual Shoes offer lightweight cushioning, breathability, and long-lasting durability. The versatile design pairs seamlessly with jeans, chinos, or shorts, making them an essential addition to any wardrobe. Elevate your everyday style with these classic, comfortable, and fashionable sneakers that combine simplicity with sophistication.",
         sizes: [6, 7, 8, 9, 10],
-        soldSizes: [6, 7, 8, 9]
+        soldSizes: [6, 7, 8, 9, 10]
       },
     ],
   },
@@ -260,7 +260,7 @@ export const products = [
       { name: 'Armour Grey', hex: '#39FF14',
     description: "Step up your performance and style with the Under Armour Grey Shoe, designed for athletes and casual wearers alike. Featuring a sleek grey colorway, these sneakers combine modern aesthetics with superior functionality. Built with lightweight and breathable materials, they ensure optimal comfort and ventilation for all-day wear, whether you're hitting the gym, running errands, or enjoying outdoor activities. The durable construction provides long-lasting support, making them a reliable choice for any lifestyle.\n\nEquipped with cushioned soles and responsive midsoles, the Under Armour Grey Shoe delivers excellent shock absorption and enhanced stability during movement. The versatile design pairs effortlessly with athletic wear, jeans, or casual outfits, making it suitable for both training sessions and everyday use. Perfect for men and women seeking a balance of style, comfort, and performance, these grey sneakers are an essential addition to any footwear collection.",
     sizes: [6, 7, 8, 9, 10],
-    soldSizes: [7, 8, 10]},
+    soldSizes: [6, 7, 8, 10]},
     ],
   },
   {
@@ -281,7 +281,7 @@ export const products = [
     colors: [
       { name: 'Metallic Blue', hex: '#39FF14',
     description: "Step out in style with the JB Shoes Metallic Blue Canvas, designed for those who love bold, modern footwear. Made from high-quality canvas, these shoes are lightweight, breathable, and perfect for all-day comfort. The metallic blue finish gives a unique, eye-catching look that stands out in any crowd.\n\nFeaturing cushioned insoles and durable outsoles, these sneakers provide excellent support and traction for everyday wear. Whether you're heading out for casual outings, streetwear looks, or weekend adventures, the JB Shoes Metallic Blue Canvas blends fashion with functionality, making them a must-have addition to your footwear collection.",
-    sizes: [6, 7, 8, 9, 10], soldSizes: [6, 8, 9, 10] },
+    sizes: [6, 7, 8, 9, 10], soldSizes: [6, 7, 8, 9, 10] },
     ],
   },
   {
@@ -333,7 +333,7 @@ export const products = [
       { name: 'Black Yellow', hex: '#39FF14', 
     description: "Turn on the style with the Fashion Auto Lace-Up Yellow Black Shoes, designed to make a bold statement wherever you go. The vibrant yellow paired with sleek black detailing creates a striking contrast that exudes confidence and modern streetwear vibes.\n\nBuilt with an innovative auto lace-up system, these sneakers ensure a secure, comfortable fit without the hassle of tying laces. Lightweight, durable, and versatile, they’re perfect for everyday wear, workouts, or adding a pop of color to your casual look.",sizes: [6, 7, 8, 9, 10], soldSizes: [6, 9,10] },
       { name: 'Black White', hex: '#39FF14',
-    description: "Turn on the style with the Fashion Auto Lace-Up White Black Shoes, designed to make a bold statement wherever you go. The vibrant white paired with sleek black detailing creates a striking contrast that exudes confidence and modern streetwear vibes.\n\nBuilt with an innovative auto lace-up system, these sneakers ensure a secure, comfortable fit without the hassle of tying laces. Lightweight, durable, and versatile, they’re perfect for everyday wear, workouts, or adding a pop of color to your casual look.", sizes: [6, 7, 8, 9, 10], soldSizes: [6, 7] },
+    description: "Turn on the style with the Fashion Auto Lace-Up White Black Shoes, designed to make a bold statement wherever you go. The vibrant white paired with sleek black detailing creates a striking contrast that exudes confidence and modern streetwear vibes.\n\nBuilt with an innovative auto lace-up system, these sneakers ensure a secure, comfortable fit without the hassle of tying laces. Lightweight, durable, and versatile, they’re perfect for everyday wear, workouts, or adding a pop of color to your casual look.", sizes: [6, 7, 8, 9, 10], soldSizes: [6, 7, 8, 10] },
     ],
   },
   {
@@ -459,7 +459,7 @@ export const products = [
     colors: [
       { name: 'Black', hex: '#39FF14',
     description: "Step into everyday comfort with the Adidas Black Walking Shoes, crafted for those who value style and performance in every stride. Featuring a sleek all-black design, these shoes pair effortlessly with any outfit while delivering the lightweight support you need for long walks. The breathable upper ensures ventilation, keeping your feet cool and fresh throughout the day.\n\nEquipped with a soft cushioned midsole for shock absorption and a durable outsole for reliable grip, these walking shoes provide lasting comfort whether you’re strolling through the city, commuting, or enjoying casual outings. Blending modern design with Adidas’ trusted quality, the Adidas Black Walking Shoes are your go-to for all-day wear.",
-    sizes: [6, 7, 8, 9, 10], },
+    sizes: [6, 7, 8, 9, 10], soldSizes: [6, 7]},
     ],
   },
   {
@@ -482,7 +482,7 @@ export const products = [
     colors: [
       { name: 'Feather White', hex: '#39FF14',
     description: "New Balance Running Shoes offer the perfect blend of comfort, support, and performance for runners of all levels. Their lightweight, breathable upper keeps feet cool and dry, while advanced cushioning in the midsole absorbs impact and provides responsive energy return, helping you run farther with less fatigue. Ideal for daily training, jogging, or competitive running, these shoes ensure stability, support, and long-lasting durability.\n\nWith a durable rubber outsole and superior traction, New Balance Running Shoes provide reliable grip on any surface. The reinforced heel and sleek design enhance stability and style, making them suitable for both athletic and everyday wear. Whether you’re a serious runner or enjoy casual runs, these shoes deliver unmatched comfort, performance, and modern design.",
-    sizes: [6, 7, 8, 9, 10], soldSizes: [6, 9, 10]},
+    sizes: [6, 7, 8, 9, 10], soldSizes: [6, 7, 8, 9, 10]},
     ],
   },
   {
@@ -661,11 +661,11 @@ export const products = [
       { name: 'Sky Blue', hex: '#5ba8f0ff',
         description: "Step up your streetwear game with the Sky Drift Low Blue Sneakers, designed to bring both comfort and confidence to your everyday look. The sneaker features a premium sky-blue suede finish paired with a durable white sole that ensures excellent grip and stability on all surfaces. Its sleek black-outlined swoosh adds a bold touch, making it stand out effortlessly in any outfit combination.\n\nCrafted for those who appreciate both fashion and function, these sneakers provide cushioned support and a lightweight feel for all-day wear. The breathable interior lining keeps your feet cool and fresh, while the modern low-cut silhouette enhances flexibility and movement. Perfect for casual outings, gym sessions, or street-style looks — the Sky Drift Low Blue Sneakers are your ultimate go-to pair for every occasion.",
     sizes: [6, 7, 8, 9, 10],
-    soldSizes: [6, 8, 10] },
+    soldSizes: [6, 7, 8, 10] },
       { name: 'Olive Mist Green', hex: '#5ba8f0ff',
         description: "Introducing the Sky Drift Low – Olive Mist Edition, a perfect fusion of earthy tones and modern streetwear appeal. Crafted with a soft olive-green suede upper, this sneaker offers a calm, natural vibe that pairs effortlessly with any outfit. The clean white midsole and bold black-outlined swoosh deliver a fresh contrast, enhancing the overall aesthetic and giving the shoe a timeless urban look.\n\nEngineered for everyday comfort, the Olive Mist features a cushioned sole for all-day support and a breathable lining to keep your feet cool during long hours of wear. Whether you’re out for a casual walk or styling your favorite streetwear fit, these sneakers bring the perfect mix of durability, versatility, and laid-back fashion.",
     sizes: [6, 7, 8, 9, 10],
-    soldSizes: [7, 9, 10] },
+    soldSizes: [6, 7, 9, 10] },
     ],
   },
   {
@@ -694,11 +694,11 @@ export const products = [
       { name: 'Olive Mist Green', hex: '#5ba8f0ff',
         description: "Introducing the Sky Drift Low – Olive Mist Edition, a perfect fusion of earthy tones and modern streetwear appeal. Crafted with a soft olive-green suede upper, this sneaker offers a calm, natural vibe that pairs effortlessly with any outfit. The clean white midsole and bold black-outlined swoosh deliver a fresh contrast, enhancing the overall aesthetic and giving the shoe a timeless urban look.\n\nEngineered for everyday comfort, the Olive Mist features a cushioned sole for all-day support and a breathable lining to keep your feet cool during long hours of wear. Whether you’re out for a casual walk or styling your favorite streetwear fit, these sneakers bring the perfect mix of durability, versatility, and laid-back fashion.",
     sizes: [6, 7, 8, 9, 10],
-    soldSizes: [7, 9, 10] },
+    soldSizes: [6, 7, 9, 10] },
       { name: 'Sky Blue', hex: '#5ba8f0ff',
         description: "Step up your streetwear game with the Sky Drift Low Blue Sneakers, designed to bring both comfort and confidence to your everyday look. The sneaker features a premium sky-blue suede finish paired with a durable white sole that ensures excellent grip and stability on all surfaces. Its sleek black-outlined swoosh adds a bold touch, making it stand out effortlessly in any outfit combination.\n\nCrafted for those who appreciate both fashion and function, these sneakers provide cushioned support and a lightweight feel for all-day wear. The breathable interior lining keeps your feet cool and fresh, while the modern low-cut silhouette enhances flexibility and movement. Perfect for casual outings, gym sessions, or street-style looks — the Sky Drift Low Blue Sneakers are your ultimate go-to pair for every occasion.",
     sizes: [6, 7, 8, 9, 10],
-    soldSizes: [6, 8, 10] },
+    soldSizes: [6, 7, 8, 10] },
     ],
   },
   {
@@ -718,7 +718,7 @@ export const products = [
       { name: 'Grey White', hex: '#5ba8f0ff',
         description: "Step into effortless comfort and modern style with the K-Flex Knit Slip-On Sneakers. Designed for those who value both performance and fashion, these sneakers feature a breathable knit upper that adapts perfectly to your foot shape. The flexible slip-on design eliminates the hassle of laces, providing a snug yet easy fit for all-day wear. Its sleek grey tone complemented by the crisp white sole makes it versatile enough for casual outings, gym sessions, or everyday errands.\n\nEngineered with a lightweight cushioned sole, the K-Flex ensures optimal support and shock absorption with every step. The durable rubber outsole provides excellent grip on various surfaces, keeping you confident and comfortable on the move. Whether paired with joggers, jeans, or shorts, these sneakers add a touch of sporty elegance to any look — making them a must-have addition to your modern footwear collection.",
     sizes: [6, 7, 8, 9, 10],
-    soldSizes: [6, 9] },
+    soldSizes: [6, 9, 10] },
     ],
   },
   {
@@ -738,7 +738,7 @@ export const products = [
       { name: 'All Black', hex: '#000000',
         description: "Experience the perfect blend of performance and everyday comfort with the K-Flex Air Glide Sneakers. Crafted with a breathable mesh-knit upper, these sneakers provide maximum ventilation while maintaining a sleek, modern design. The slip-on build ensures effortless wearability, while the cushioned midsole delivers all-day comfort whether you’re walking, training, or simply on the go. The signature “K” logo adds a touch of premium style, making these sneakers ideal for both casual and active lifestyles.\n\nThe all-black tone gives a bold, versatile look that pairs effortlessly with any outfit — from sportswear to streetwear. Designed for durability and traction, the thick sole ensures a stable and comfortable step across various surfaces. Lightweight yet sturdy, the K-Flex Air Glide Sneakers are your go-to choice for long-lasting comfort, everyday use, and standout style in every stride.",
     sizes: [6, 7, 8, 9, 10],
-    soldSizes: [7, 10] },
+    soldSizes: [6, 7, 8, 10] },
     ],
   },
   {
@@ -779,7 +779,7 @@ export const products = [
       { name: 'White & Black', hex: '#000000',
         description: "Step into a new level of comfort and style with the Airwave Nova Boost Sneakers. Designed for those who love to blend fashion with performance, these sneakers feature a sleek white upper with glossy black detailing that adds a bold edge to your everyday look. The breathable mesh fabric ensures all-day comfort, while the sturdy sole with air cushioning offers superior support for long walks, workouts, or casual outings.\n\nCrafted with premium materials, the Airwave Nova Boost Sneakers are not just shoes — they’re a statement of modern street style. The futuristic sole design and smooth finish make them a standout piece in any outfit, whether paired with jeans, joggers, or athleisure wear. Perfect for those who value both aesthetics and function, these sneakers redefine what it means to move in style.",
     sizes: [6, 7, 8, 9, 10],
-    soldSizes: [6, 8] },
+    soldSizes: [7, 8, 10] },
     ],
   },
 ];
