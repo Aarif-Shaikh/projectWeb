@@ -1,10 +1,10 @@
 
 export const heroSliderProducts = [
   {
-    id: 'shoe-32',
-    name: 'Airwave Nova Boost',
+    id: 'shoe-25',
+    name: 'UrbanFlex Canvas',
     price: 699,
-    image: '/cabinMaterials/P39.jpg', // main hero image
+    image: '/cabinMaterials/P30.4.jpg', // main hero image
   },
   {
     id: 'shoe-31',

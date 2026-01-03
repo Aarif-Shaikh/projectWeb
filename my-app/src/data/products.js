@@ -594,23 +594,21 @@ export const products = [
   },
   {
     id: 'shoe-25',
-    name: 'Canvas',
-    price: 649,
+    name: 'UrbanFlex Canvas',
+    price: 699,
     media: {
-      'Matt Black': [
+      'Olive': [
         { type: 'image', src: '/cabinMaterials/P30.jpg' },
         { type: 'image', src: '/cabinMaterials/P30.1.jpg' },
         { type: 'image', src: '/cabinMaterials/P30.2.jpg' },
         { type: 'image', src: '/cabinMaterials/P30.3.jpg' },
         { type: 'image', src: '/cabinMaterials/P30.4.jpg' },
-        { type: 'image', src: '/cabinMaterials/P30.5.jpg' },
-        { type: 'image', src: '/cabinMaterials/P30.6.jpg' }
       ],
     },
     colors: [
-      { name: 'Matt Black', hex: '#000000',
-    description: "Canvas Matt Black Shoes offer a perfect blend of style, comfort, and versatility. Crafted with durable canvas material, these shoes provide lightweight wear and breathability, making them ideal for everyday use. The sleek matt black finish gives a modern, minimalist look that pairs effortlessly with casual or semi-formal outfits.\n\nDesigned with a cushioned insole and flexible rubber outsole, these shoes ensure all-day comfort and reliable grip on various surfaces. Their low-profile silhouette and classic lace-up design make them a timeless wardrobe staple, suitable for work, college, or casual outings. Durable, stylish, and easy to maintain, Canvas Matt Black Shoes are a must-have for any footwear collection.",
-    sizes: [6, 7, 8, 9, 10], soldSizes: [6, 7, 8, 9, 10]},
+      { name: 'Olive', hex: '#6E6B3D',
+    description: "Upgrade your daily footwear with UrbanFlex Air Casual Sneakers, designed for people who want comfort without compromising on style. Crafted with a premium synthetic upper, these sneakers offer a smooth finish that looks classy and feels durable for everyday use.\n\nThe air-cushioned sole provides excellent shock absorption, reducing foot fatigue even after long hours of walking or standing. The lightweight construction ensures effortless movement, while the cushioned inner lining adds extra softness for maximum comfort.\n\nWith a neutral grey tone, these sneakers easily pair with jeans, chinos, or casual trousers, making them a versatile choice for office wear, travel, or casual outings. The lace-up design ensures a secure fit, while the sturdy outsole offers reliable grip on different surfaces.",
+    sizes: [6, 7, 8, 9, 10]},
     ],
   },
   {
