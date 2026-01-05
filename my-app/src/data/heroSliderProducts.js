@@ -1,28 +1,28 @@
 
 export const heroSliderProducts = [
   {
+    id: 'shoe-33',
+    name: 'Mid-Top Streetguard',
+    price: 1049,
+    image: '/cabinMaterials/P6.3.jpg', // main hero image
+  },
+  {
     id: 'shoe-25',
     name: 'UrbanFlex Canvas',
     price: 699,
     image: '/cabinMaterials/P30.4.jpg', // main hero image
   },
   {
-    id: 'shoe-31',
-    name: 'Adidas Street Pulse',
-    price: 699,
-    image: '/cabinMaterials/P38.jpg', // main hero image
+    id: 'shoe-20',
+    name: 'Nike AirFlex Runner',
+    price: 749,
+    image: '/cabinMaterials/P26.3.jpg', // main hero image
   },
   {
-    id: 'shoe-27',
-    name: 'Sky Drift Low',
-    price: 699,
-    image: '/cabinMaterials/P34.jpg', // main hero image
-  },
-  {
-    id: 'shoe-1',
-    name: 'Onitsuka Tiger',
+    id: 'shoe-14',
+    name: 'Onitsuka Tiger Mexico 66',
     price: 729,
-    image: '/cabinMaterials/P7.jpg', // main hero image
+    image: '/cabinMaterials/P16.3.jpg', // main hero image
   },
   {
     id: 'shoe-30',

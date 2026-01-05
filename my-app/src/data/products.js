@@ -167,22 +167,10 @@ export const products = [
         { type: 'image', src: '/cabinMaterials/P15.7.jpg' },
         { type: 'image', src: '/cabinMaterials/P15.8.jpg' }
       ],
-      'White Trefoil': [
-        { type: 'image', src: '/cabinMaterials/P6.jpg' },
-        { type: 'image', src: '/cabinMaterials/P6.1.jpg' },
-        { type: 'image', src: '/cabinMaterials/P6.2.jpg' },
-        { type: 'image', src: '/cabinMaterials/P6.3.jpg' },
-        { type: 'image', src: '/cabinMaterials/P6.4.jpg' },
-        { type: 'image', src: '/cabinMaterials/P6.5.jpg' },
-        { type: 'image', src: '/cabinMaterials/P6.6.jpg' },
-        { type: 'image', src: '/cabinMaterials/P6.7.jpg' }
-      ],
     },
     colors: [
       { name: 'Black Trefoil', hex: '#39FF14',
-    description: "Elevate your sneaker game with the Adidas Forum Sneakers, featuring the iconic three white stripes and a bold white Trefoil logo. Designed for those who appreciate classic style with a modern twist, these sneakers combine streetwear appeal with timeless athletic heritage. Perfect for casual outings, gym sessions, or adding a sporty edge to your everyday look.\n\nCrafted with premium materials, Adidas Forum Sneakers offer exceptional comfort, durability, and support. The cushioned midsole and sturdy outsole ensure all-day wearability, while the sleek black design pairs effortlessly with jeans, joggers, or shorts. Step confidently with these versatile sneakers that merge style, performance, and iconic Adidas heritage into one must-have footwear essential.", sizes: [6, 7, 8, 9, 10], soldSizes: [8, 10] },
-      { name: 'White Trefoil', hex: '#39FF14', 
-    description: "Elevate your sneaker game with the Adidas Forum Sneakers, featuring the iconic three black stripes and a bold black Trefoil logo. Designed for those who appreciate classic style with a modern twist, these sneakers combine streetwear appeal with timeless athletic heritage. Perfect for casual outings, gym sessions, or adding a sporty edge to your everyday look.\n\nCrafted with premium materials, Adidas Forum Sneakers offer exceptional comfort, durability, and support. The cushioned midsole and sturdy outsole ensure all-day wearability, while the sleek black design pairs effortlessly with jeans, joggers, or shorts. Step confidently with these versatile sneakers that merge style, performance, and iconic Adidas heritage into one must-have footwear essential.",sizes: [6, 7, 8, 9, 10], soldSizes: [6, 7, 8, 9, 10] },
+    description: "Elevate your sneaker game with the Adidas Forum Sneakers, featuring the iconic three white stripes and a bold white Trefoil logo. Designed for those who appreciate classic style with a modern twist, these sneakers combine streetwear appeal with timeless athletic heritage. Perfect for casual outings, gym sessions, or adding a sporty edge to your everyday look.\n\nCrafted with premium materials, Adidas Forum Sneakers offer exceptional comfort, durability, and support. The cushioned midsole and sturdy outsole ensure all-day wearability, while the sleek black design pairs effortlessly with jeans, joggers, or shorts. Step confidently with these versatile sneakers that merge style, performance, and iconic Adidas heritage into one must-have footwear essential.", sizes: [6, 7, 8, 9, 10], soldSizes: [6, 8, 9, 10] }
     ],
   },
   {
@@ -351,22 +339,20 @@ export const products = [
         { type: 'image', src: '/cabinMaterials/P21.6.jpg' },
         { type: 'image', src: '/cabinMaterials/P21.7.jpg' }
       ],
-      'Black Red': [
+      'White Black': [
         { type: 'image', src: '/cabinMaterials/P16.jpg' },
         { type: 'image', src: '/cabinMaterials/P16.1.jpg' },
         { type: 'image', src: '/cabinMaterials/P16.2.jpg' },
         { type: 'image', src: '/cabinMaterials/P16.3.jpg' },
         { type: 'image', src: '/cabinMaterials/P16.4.jpg' },
-        { type: 'image', src: '/cabinMaterials/P16.5.jpg' },
-        { type: 'image', src: '/cabinMaterials/P16.6.jpg' }
       ],
     },
     colors: [
       { name: 'Blue Red', hex: '#39FF14', 
     description: "The Onitsuka Tiger Mexico 66 is an iconic sneaker that blends heritage design with everyday comfort. Featuring its signature blue and red stripes on a crisp white base, this shoe pays homage to vintage athletic style while staying relevant in modern streetwear culture. Crafted with premium leather and suede overlays, it offers both durability and a refined look that never goes out of style.\n\nLightweight, flexible, and versatile, the Mexico 66 is perfect for casual outings, travel, or daily wear. With its retro silhouette, cushioned insole, and timeless stripe design, it remains a favorite among sneaker enthusiasts who value comfort, quality, and heritage fashion. Step out in classic style with a sneaker that truly defines sneaker culture.",
-    sizes: [6, 7, 8, 9, 10],soldSizes: [6, 7, 8, 9, 10] },
-      { name: 'Black Red', hex: '#39FF14', description: "The Onitsuka Tiger Mexico 66 is an iconic sneaker that blends heritage design with everyday comfort. Featuring its signature black and red stripes on a crisp white base, this shoe pays homage to vintage athletic style while staying relevant in modern streetwear culture. Crafted with premium leather and suede overlays, it offers both durability and a refined look that never goes out of style.\n\nLightweight, flexible, and versatile, the Mexico 66 is perfect for casual outings, travel, or daily wear. With its retro silhouette, cushioned insole, and timeless stripe design, it remains a favorite among sneaker enthusiasts who value comfort, quality, and heritage fashion. Step out in classic style with a sneaker that truly defines sneaker culture.",
-        sizes: [6, 7, 8, 9, 10],soldSizes: [6, 7, 8, 9, 10] },
+    sizes: [6, 7, 8, 9, 10],soldSizes: [6, 10] },
+      { name: 'White Black', hex: '#39FF14', description: "The Onitsuka Tiger Mexico 66 is an iconic sneaker that blends heritage design with everyday comfort. Featuring its signature black stripes on a crisp white base, this shoe pays homage to vintage athletic style while staying relevant in modern streetwear culture. Crafted with premium leather and suede overlays, it offers both durability and a refined look that never goes out of style.\n\nLightweight, flexible, and versatile, the Mexico 66 is perfect for casual outings, travel, or daily wear. With its retro silhouette, cushioned insole, and timeless stripe design, it remains a favorite among sneaker enthusiasts who value comfort, quality, and heritage fashion. Step out in classic style with a sneaker that truly defines sneaker culture.",
+        sizes: [6, 7, 8, 9, 10]},
     ],
   },
   {
@@ -487,24 +473,22 @@ export const products = [
   },
   {
     id: 'shoe-20',
-    name: 'Adidas',
-    price: 699,
+    name: 'Nike AirFlex Runner',
+    price: 749,
     media: {
-      'Red Black': [
+      'Mustard Yellow': [
         { type: 'image', src: '/cabinMaterials/P26.jpg' },
         { type: 'image', src: '/cabinMaterials/P26.1.jpg' },
         { type: 'image', src: '/cabinMaterials/P26.2.jpg' },
         { type: 'image', src: '/cabinMaterials/P26.3.jpg' },
         { type: 'image', src: '/cabinMaterials/P26.4.jpg' },
         { type: 'image', src: '/cabinMaterials/P26.5.jpg' },
-        { type: 'image', src: '/cabinMaterials/P26.6.jpg' }
       ],
     },
     colors: [
-      { name: 'Red Black', hex: '#39FF14',
-    description: "Adidas Black Sports Shoes combine sleek style with high-performance functionality, designed for athletes and active individuals. Featuring a breathable mesh upper, these shoes keep your feet cool and comfortable during intense workouts or daily training sessions. The cushioned midsole provides superior shock absorption and energy return, ensuring all-day comfort while enhancing your athletic performance.\n\nThe durable rubber outsole delivers excellent grip and traction on a variety of surfaces, while the reinforced heel adds stability during quick movements. With a modern all-black design, Adidas Black Sports Shoes not only perform well but also complement any sporty or casual outfit. Perfect for running, gym workouts, or casual wear, these shoes offer a balance of style, support, and durability.",
-    sizes: [6, 7, 8, 9, 10],
-    soldSizes: [6, 7, 8, 9, 10] },
+      { name: 'Mustard Yellow', hex: '#d4a017',
+    description: "Upgrade your footwear game with these modern Nike AirFlex Runner designed for comfort, durability, and everyday versatility. Crafted with a breathable mesh upper, these shoes keep your feet cool and fresh even during long hours of wear. The cushioned sole provides excellent shock absorption, making them ideal for walking, gym sessions, running errands, or casual outings.\n\nThe sleek design blends a neutral base with vibrant contrast tones, giving the shoes a premium and sporty look that pairs effortlessly with jeans, joggers, or activewear. The lightweight construction reduces foot fatigue, while the sturdy outsole ensures reliable grip and stability on different surfaces.\n\nWhether you’re heading out for a quick walk, a workout, or a casual day out, these sneakers deliver the perfect balance of style and performance—making them a must-have addition to your shoe collection.",
+    sizes: [6, 7, 8, 9, 10]},
     ],
   },
   {
@@ -607,7 +591,7 @@ export const products = [
     },
     colors: [
       { name: 'Olive', hex: '#6E6B3D',
-    description: "Upgrade your daily footwear with UrbanFlex Air Casual Sneakers, designed for people who want comfort without compromising on style. Crafted with a premium synthetic upper, these sneakers offer a smooth finish that looks classy and feels durable for everyday use.\n\nThe air-cushioned sole provides excellent shock absorption, reducing foot fatigue even after long hours of walking or standing. The lightweight construction ensures effortless movement, while the cushioned inner lining adds extra softness for maximum comfort.\n\nWith a neutral grey tone, these sneakers easily pair with jeans, chinos, or casual trousers, making them a versatile choice for office wear, travel, or casual outings. The lace-up design ensures a secure fit, while the sturdy outsole offers reliable grip on different surfaces.",
+    description: "Upgrade your daily footwear with UrbanFlex Air Casual Sneakers, designed for people who want comfort without compromising on style. Crafted with a premium synthetic upper, these sneakers offer a smooth finish that looks classy and feels durable for everyday use.\n\nThe air-cushioned sole provides excellent shock absorption, reducing foot fatigue even after long hours of walking or standing. The lightweight construction ensures effortless movement, while the cushioned inner lining adds extra softness for maximum comfort.\n\nWith a neutral Olive Green tone, these sneakers easily pair with jeans, chinos, or casual trousers, making them a versatile choice for office wear, travel, or casual outings. The lace-up design ensures a secure fit, while the sturdy outsole offers reliable grip on different surfaces.",
     sizes: [6, 7, 8, 9, 10]},
     ],
   },
@@ -778,6 +762,25 @@ export const products = [
         description: "Step into a new level of comfort and style with the Airwave Nova Boost Sneakers. Designed for those who love to blend fashion with performance, these sneakers feature a sleek white upper with glossy black detailing that adds a bold edge to your everyday look. The breathable mesh fabric ensures all-day comfort, while the sturdy sole with air cushioning offers superior support for long walks, workouts, or casual outings.\n\nCrafted with premium materials, the Airwave Nova Boost Sneakers are not just shoes — they’re a statement of modern street style. The futuristic sole design and smooth finish make them a standout piece in any outfit, whether paired with jeans, joggers, or athleisure wear. Perfect for those who value both aesthetics and function, these sneakers redefine what it means to move in style.",
     sizes: [6, 7, 8, 9, 10],
     soldSizes: [7, 8, 10] },
+    ],
+  },
+  {
+    id: 'shoe-33',
+    name: 'Mid-Top StreetGuard',
+    price: 1049,
+    media: {
+      'Electric Blue': [
+        { type: 'image', src: '/cabinMaterials/P6.jpg' },
+        { type: 'image', src: '/cabinMaterials/P6.1.jpg' },
+        { type: 'image', src: '/cabinMaterials/P6.2.jpg' },
+        { type: 'image', src: '/cabinMaterials/P6.3.jpg' },
+        { type: 'image', src: '/cabinMaterials/P6.4.jpg' },
+      ],
+    },
+    colors: [
+      { name: 'Electric Blue', hex: '#1E90FF',
+        description: "Step up your streetwear game with these stylish mid-top sneakers designed for durability, comfort, and modern appeal. Made with a premium synthetic upper and breathable inner lining, these shoes provide excellent support and comfort for daily wear.\n\nThe mid-top design adds ankle stability while enhancing the overall street-style look. A cushioned sole absorbs impact and reduces foot fatigue, making these sneakers ideal for long hours of walking, casual outings, and daily use. The rugged outsole ensures strong grip and balance on multiple surfaces.\n\nWith a bold color combination and sporty details, these sneakers easily pair with jeans, cargos, or joggers—making them a versatile choice for fashion-forward individuals who value both comfort and style.",
+    sizes: [6, 7, 8, 9, 10] },
     ],
   },
 ];
