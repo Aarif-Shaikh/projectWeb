@@ -46,10 +46,10 @@ export const products = [
     colors: [
       { name: 'Pure Black', hex: '#17202A',
         description: "Step into effortless style and comfort with these Pure Black Slip-On Loafers. Designed for modern individuals who value convenience and elegance, these loafers are perfect for casual outings, office wear, or weekend getaways. The sleek all-black design adds a touch of sophistication to any outfit, while the slip-on style ensures easy wear and a snug, comfortable fit throughout the day.\n\nCrafted with premium materials, these loafers provide lightweight cushioning, durability, and breathability for all-day comfort. Their versatile design pairs seamlessly with jeans, chinos, or shorts, making them a must-have for men and women seeking stylish, practical footwear that blends fashion with functionality.",
-        sizes: [6, 7, 8, 9, 10], soldSizes: [6, 7, 8, 10]},
+        sizes: [6, 7, 8, 9, 10], soldSizes: [8, 10]},
       { name: 'Pure White', hex: '#FFFFFF', 
         description: "Step into effortless style and comfort with these Pure White Slip-On Loafers. Designed for modern individuals who value convenience and elegance, these loafers are perfect for casual outings, office wear, or weekend getaways. The sleek all-white design adds a touch of sophistication to any outfit, while the slip-on style ensures easy wear and a snug, comfortable fit throughout the day.  \n\nCrafted with premium materials, these loafers provide lightweight cushioning, durability, and breathability for all-day comfort. Their versatile design pairs seamlessly with jeans, chinos, or shorts, making them a must-have for men and women seeking stylish, practical footwear that blends fashion with functionality.",
-        sizes: [6, 7, 8, 9, 10], soldSizes: [6, 7, 8, 9, 10]},
+        sizes: [6, 7, 8, 9, 10]},
     ],
   },
   {
@@ -178,7 +178,7 @@ export const products = [
     name: 'Nike Air',
     price: 699,
     media: {
-      'Uptempo White': [
+      'Charcoal Grey': [
         { type: 'image', src: '/cabinMaterials/P8.jpg' },
         { type: 'image', src: '/cabinMaterials/P8.1.jpg' },
         { type: 'image', src: '/cabinMaterials/P8.2.jpg' },
@@ -188,10 +188,9 @@ export const products = [
       ],
     },
     colors: [
-      { name: 'Uptempo White', hex: '#39FF14',
-    description: "Step into style and comfort with the Nike Air More Uptempo Low Full White, a must-have sneaker for sneaker enthusiasts and fashion-forward individuals. Featuring the iconic oversized “AIR” lettering in a sleek all-white finish, these sneakers deliver a bold yet versatile look that complements any outfit. Crafted with premium leather and durable materials, the Nike Air More Uptempo Low ensures long-lasting comfort, support, and style, making it perfect for casual wear, streetwear fashion, or light sports activities.\n\nDesigned for everyday wear, the full white colorway enhances versatility, pairing effortlessly with jeans, joggers, shorts, or athleisure ensembles. Equipped with responsive Air-Sole cushioning, these sneakers offer superior impact absorption and all-day comfort. Ideal for men and women seeking a combination of fashion and functionality, the Nike Air More Uptempo Low Full White is a timeless addition to any sneaker collection, merging classic basketball-inspired design with modern urban style.",
-    sizes: [6, 7, 8, 9, 10],
-    soldSizes: [6, 7, 8, 9, 10] },
+      { name: 'Charcoal Grey', hex: '#39FF14',
+    description: "Step into style and comfort with the Nike Air More Charcoal Grey with Full White Accent, a must-have sneaker for sneaker enthusiasts and fashion-forward individuals. Featuring the iconic oversized “AIR” lettering in a sleek all-white finish, these sneakers deliver a bold yet versatile look that complements any outfit. Crafted with premium leather and durable materials, the Nike Air More Uptempo Low ensures long-lasting comfort, support, and style, making it perfect for casual wear, streetwear fashion, or light sports activities.\n\nDesigned for everyday wear, the full white colorway enhances versatility, pairing effortlessly with jeans, joggers, shorts, or athleisure ensembles. Equipped with responsive Air-Sole cushioning, these sneakers offer superior impact absorption and all-day comfort. Ideal for men and women seeking a combination of fashion and functionality, the Nike Air More Uptempo Low Full White is a timeless addition to any sneaker collection, merging classic basketball-inspired design with modern urban style.",
+    sizes: [6, 7, 8, 9, 10]},
     ],
   },
   {
@@ -220,12 +219,11 @@ export const products = [
     colors: [
       { name: 'Yellow', hex: '#39FF14', 
     description: "Elevate your sneaker game with the Adidas Forum Sneakers, featuring the iconic three black stripes and a bold black Trefoil logo. Designed for those who appreciate classic style with a modern twist, these sneakers combine streetwear appeal with timeless athletic heritage. Perfect for casual outings, gym sessions, or adding a sporty edge to your everyday look.\n\nCrafted with premium materials, Adidas Forum Sneakers offer exceptional comfort, durability, and support. The cushioned midsole and sturdy outsole ensure all-day wearability, while the sleek black design pairs effortlessly with jeans, joggers, or shorts. Step confidently with these versatile sneakers that merge style, performance, and iconic Adidas heritage into one must-have footwear essential.",
-    sizes: [6, 7, 8, 9, 10], soldSizes: [6, 7, 8, 9]},
+    sizes: [6, 7, 8, 9, 10], soldSizes: [7, 8, 9]},
       {
         name: 'White', hex: '#39FF14',
     description: "Elevate your sneaker game with the Adidas Forum Sneakers, featuring the iconic three black stripes and a bold black Trefoil logo. Designed for those who appreciate classic style with a modern twist, these sneakers combine streetwear appeal with timeless athletic heritage. Perfect for casual outings, gym sessions, or adding a sporty edge to your everyday look.\n\nCrafted with premium materials, Adidas Forum Sneakers offer exceptional comfort, durability, and support. The cushioned midsole and sturdy outsole ensure all-day wearability, while the sleek black design pairs effortlessly with jeans, joggers, or shorts. Step confidently with these versatile sneakers that merge style, performance, and iconic Adidas heritage into one must-have footwear essential.", 
-    sizes: [6, 7, 8, 9, 10],
-        soldSizes: [6, 7, 8, 9, 10]
+    sizes: [6, 7, 8, 9, 10]
       },
     ],
   },
@@ -350,7 +348,7 @@ export const products = [
     colors: [
       { name: 'Blue Red', hex: '#39FF14', 
     description: "The Onitsuka Tiger Mexico 66 is an iconic sneaker that blends heritage design with everyday comfort. Featuring its signature blue and red stripes on a crisp white base, this shoe pays homage to vintage athletic style while staying relevant in modern streetwear culture. Crafted with premium leather and suede overlays, it offers both durability and a refined look that never goes out of style.\n\nLightweight, flexible, and versatile, the Mexico 66 is perfect for casual outings, travel, or daily wear. With its retro silhouette, cushioned insole, and timeless stripe design, it remains a favorite among sneaker enthusiasts who value comfort, quality, and heritage fashion. Step out in classic style with a sneaker that truly defines sneaker culture.",
-    sizes: [6, 7, 8, 9, 10],soldSizes: [6, 10] },
+    sizes: [6, 7, 8, 9, 10],soldSizes: [6, 7, 10] },
       { name: 'White Black', hex: '#39FF14', description: "The Onitsuka Tiger Mexico 66 is an iconic sneaker that blends heritage design with everyday comfort. Featuring its signature black stripes on a crisp white base, this shoe pays homage to vintage athletic style while staying relevant in modern streetwear culture. Crafted with premium leather and suede overlays, it offers both durability and a refined look that never goes out of style.\n\nLightweight, flexible, and versatile, the Mexico 66 is perfect for casual outings, travel, or daily wear. With its retro silhouette, cushioned insole, and timeless stripe design, it remains a favorite among sneaker enthusiasts who value comfort, quality, and heritage fashion. Step out in classic style with a sneaker that truly defines sneaker culture.",
         sizes: [6, 7, 8, 9, 10]},
     ],
@@ -488,7 +486,7 @@ export const products = [
     colors: [
       { name: 'Mustard Yellow', hex: '#d4a017',
     description: "Upgrade your footwear game with these modern Nike AirFlex Runner designed for comfort, durability, and everyday versatility. Crafted with a breathable mesh upper, these shoes keep your feet cool and fresh even during long hours of wear. The cushioned sole provides excellent shock absorption, making them ideal for walking, gym sessions, running errands, or casual outings.\n\nThe sleek design blends a neutral base with vibrant contrast tones, giving the shoes a premium and sporty look that pairs effortlessly with jeans, joggers, or activewear. The lightweight construction reduces foot fatigue, while the sturdy outsole ensures reliable grip and stability on different surfaces.\n\nWhether you’re heading out for a quick walk, a workout, or a casual day out, these sneakers deliver the perfect balance of style and performance—making them a must-have addition to your shoe collection.",
-    sizes: [6, 7, 8, 9, 10]},
+    sizes: [6, 7, 8, 9, 10], soldSizes: [8, 9, 10]},
     ],
   },
   {
@@ -515,23 +513,21 @@ export const products = [
   },
   {
     id: 'shoe-22',
-    name: 'Reebok Instapump Fury',
-    price: 729,
+    name: 'AeroPulse Max Cushion',
+    price: 749,
     media: {
-      'Fury Red': [
+      'Electric Sky Blue': [
         { type: 'image', src: '/cabinMaterials/P27.jpg' },
         { type: 'image', src: '/cabinMaterials/P27.1.jpg' },
         { type: 'image', src: '/cabinMaterials/P27.2.jpg' },
         { type: 'image', src: '/cabinMaterials/P27.3.jpg' },
-        { type: 'image', src: '/cabinMaterials/P27.4.jpg' },
-        { type: 'image', src: '/cabinMaterials/P27.5.jpg' },
-        { type: 'image', src: '/cabinMaterials/P27.6.jpg' }
+        { type: 'image', src: '/cabinMaterials/P27.4.jpg' }
       ],
     },
     colors: [
-      { name: 'Fury Red', hex: '#FF5733',
-    description: "Reebok Instapump Fury Shoes are a bold and innovative choice for those who value style and performance. Featuring a unique laceless design with Pump technology, these shoes allow for a personalized, secure fit that adapts to your foot shape. The lightweight and breathable upper ensures comfort during long wear, while the cushioned midsole delivers responsive support for every step.\n\nWith a durable rubber outsole, the Instapump Fury provides excellent traction on multiple surfaces, making it ideal for both casual wear and active lifestyles. Their futuristic design and vibrant colorways make them a standout statement piece, blending cutting-edge technology with modern streetwear style.",
-    sizes: [6, 7, 8, 9, 10], soldSizes: [6, 7, 8, 9, 10]},
+      { name: 'Electric Sky Blue', hex: '#2f6fcb',
+    description: "The AeroPulse Max Cushion Sports Sneakers are designed for those who want the perfect balance of comfort, performance, and modern style. Featuring a breathable mesh upper with dynamic line detailing, these sneakers ensure proper airflow to keep your feet cool and fresh throughout the day.\n\nThe transparent air-cushion sole provides excellent shock absorption, reducing impact on your feet while walking, running, or training. A lightweight build and flexible outsole deliver smooth movement and enhanced grip on multiple surfaces.\n\nWhether you’re hitting the gym, heading out for a casual day, or styling them with streetwear, AeroPulse Max offers durability, support, and a bold sporty look that stands out.",
+    sizes: [6, 7, 8, 9, 10], soldSizes: [6, 8]},
     ],
   },
   {
@@ -741,7 +737,7 @@ export const products = [
       { name: 'Black Blue', hex: '#000000',
         description: "Step up your sneaker game with the Adidas Street Pulse Vibe, a perfect blend of sporty energy and modern street style. Designed for those who appreciate comfort without compromising on looks, these shoes feature a sleek black upper complemented by signature white stripes and a subtle light blue accent at the heel. The cushioned midsole provides superior comfort and support, making it ideal for everyday wear — whether you’re hitting the streets, gym, or just hanging out with friends.\n\nBuilt with durable materials and precision detailing, the Street Pulse Vibe ensures long-lasting wear and effortless performance. Its textured sole offers excellent grip and traction on various surfaces, while the contemporary design adds a bold edge to any outfit. Stylish, versatile, and comfortable — this pair is a must-have addition to your sneaker collection.",
     sizes: [6, 7, 8, 9, 10],
-    soldSizes: [6] },
+    soldSizes: [6, 8, 9, 10] },
     ],
   },
   {
