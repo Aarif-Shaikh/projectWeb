@@ -26,9 +26,9 @@ export const heroSliderProducts = [
   },
   {
     id: 'shoe-30',
-    name: 'K-Flex Slip-On',
-    price: 649,
-    image: '/cabinMaterials/P37.jpg',
+    name: 'AeroPulse Max Cushion',
+    price: 749,
+    image: '/cabinMaterials/P27.3.jpg',
   },
   {
     id: 'shoe-2',
@@ -38,9 +38,9 @@ export const heroSliderProducts = [
   },
   {
     id: 'shoe-3',
-    name: 'Puma Ferrari',
+    name: 'Nike Air',
     price: 699,
-      image: '/cabinMaterials/P32.jpg',
+      image: '/cabinMaterials/P8.3.jpg',
     },
   {
     id: 'shoe-29',
