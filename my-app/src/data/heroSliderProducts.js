@@ -25,16 +25,16 @@ export const heroSliderProducts = [
     image: '/cabinMaterials/P16.3.jpg', // main hero image
   },
   {
-    id: 'shoe-30',
+    id: 'shoe-22',
     name: 'AeroPulse Max Cushion',
     price: 749,
     image: '/cabinMaterials/P27.3.jpg',
   },
   {
-    id: 'shoe-2',
-    name: 'Slip-On Loafer',
-    price: 600,
-    image: '/cabinMaterials/P17.jpg',
+    id: 'shoe-19',
+    name: 'VIP',
+    price: 699,
+    image: '/cabinMaterials/P25.3.jpg',
   },
   {
     id: 'shoe-3',
@@ -49,9 +49,9 @@ export const heroSliderProducts = [
     image: '/cabinMaterials/P36.jpg',
   },
   {
-    id: 'shoe-13',
-    name: 'Fashion Auto Lace-Up',
+    id: 'shoe-21',
+    name: 'VIP',
     price: 699,
-    image: '/cabinMaterials/P19.jpg',
+    image: '/cabinMaterials/P24.3.jpg',
   },
 ];

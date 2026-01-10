@@ -448,25 +448,21 @@ export const products = [
   },
   {
     id: 'shoe-19',
-    name: 'New Balance',
-    price: 719,
+    name: 'VIP',
+    price: 699,
     media: {
-      'Feather White': [
+      'Beige': [
         { type: 'image', src: '/cabinMaterials/P25.jpg' },
         { type: 'image', src: '/cabinMaterials/P25.1.jpg' },
         { type: 'image', src: '/cabinMaterials/P25.2.jpg' },
         { type: 'image', src: '/cabinMaterials/P25.3.jpg' },
-        { type: 'image', src: '/cabinMaterials/P25.4.jpg' },
-        { type: 'image', src: '/cabinMaterials/P25.5.jpg' },
-        { type: 'image', src: '/cabinMaterials/P25.6.jpg' },
-        { type: 'image', src: '/cabinMaterials/P25.7.jpg' },
-        { type: 'image', src: '/cabinMaterials/P25.8.jpg' }
+        { type: 'image', src: '/cabinMaterials/P25.4.jpg' }
       ],
     },
     colors: [
-      { name: 'Feather White', hex: '#39FF14',
-    description: "New Balance Running Shoes offer the perfect blend of comfort, support, and performance for runners of all levels. Their lightweight, breathable upper keeps feet cool and dry, while advanced cushioning in the midsole absorbs impact and provides responsive energy return, helping you run farther with less fatigue. Ideal for daily training, jogging, or competitive running, these shoes ensure stability, support, and long-lasting durability.\n\nWith a durable rubber outsole and superior traction, New Balance Running Shoes provide reliable grip on any surface. The reinforced heel and sleek design enhance stability and style, making them suitable for both athletic and everyday wear. Whether you’re a serious runner or enjoy casual runs, these shoes deliver unmatched comfort, performance, and modern design.",
-    sizes: [6, 7, 8, 9, 10], soldSizes: [6, 7, 8, 9, 10]},
+      { name: 'Beige', hex: '#d8c7b2',
+    description: "step into everyday comfort and modern street style with our urban glide chunky sneakers. designed for people who love minimal yet bold footwear, these sneakers feature a breathable mesh upper combined with premium synthetic overlays for durability and support.\n\nthe chunky cushioned sole provides excellent shock absorption, making them ideal for long walks, daily wear, college use, or casual outings. soft inner padding ensures all-day comfort, while the sturdy outsole offers reliable grip on multiple surfaces.\n\nthe neutral tone makes these sneakers easy to pair with jeans, cargos, joggers, or casual dresses. whether you’re heading out with friends or styling a laid-back look, these sneakers deliver comfort, versatility, and trend-forward design in one perfect pair.",
+    sizes: [6, 7, 8, 9, 10], soldSizes: [6, 8, 9, 10]},
     ],
   },
   {
@@ -491,24 +487,22 @@ export const products = [
   },
   {
     id: 'shoe-21',
-    name: 'ASICS Exite-11',
-    price: 729,
+    name: 'VIP',
+    price: 699,
     media: {
-      'Gel White': [
+      'Black&White': [
         { type: 'image', src: '/cabinMaterials/P24.jpg' },
         { type: 'image', src: '/cabinMaterials/P24.1.jpg' },
         { type: 'image', src: '/cabinMaterials/P24.2.jpg' },
         { type: 'image', src: '/cabinMaterials/P24.3.jpg' },
-        { type: 'image', src: '/cabinMaterials/P24.4.jpg' },
-        { type: 'image', src: '/cabinMaterials/P24.5.jpg' },
-        { type: 'image', src: '/cabinMaterials/P24.6.jpg' }
+        { type: 'image', src: '/cabinMaterials/P24.4.jpg' }
       ],
     },
     colors: [
-      { name: 'Gel White', hex: '#39FF14',
-    description: "Asics Excite 11 Shoes are designed for runners seeking comfort, support, and style in every stride. Featuring a breathable mesh upper, these shoes provide excellent ventilation to keep your feet cool during workouts or long runs. The cushioned midsole delivers responsive shock absorption, ensuring smooth and comfortable movement while reducing fatigue.\n\nThe durable outsole offers reliable traction on multiple surfaces, making them suitable for both indoor and outdoor activities. With a modern, sleek design, Asics Excite 11 Shoes combine performance and aesthetics, making them perfect for running, training, or casual wear. Their lightweight construction and supportive fit help you stay agile and confident in every step.",
+      { name: 'Black&White', hex: '#d8c7b2',
+    description: "step into everyday comfort and modern street style with our urban glide chunky sneakers. designed for people who love minimal yet bold footwear, these sneakers feature a breathable mesh upper combined with premium synthetic overlays for durability and support.\n\nthe chunky cushioned sole provides excellent shock absorption, making them ideal for long walks, daily wear, college use, or casual outings. soft inner padding ensures all-day comfort, while the sturdy outsole offers reliable grip on multiple surfaces.\n\nthe neutral tone makes these sneakers easy to pair with jeans, cargos, joggers, or casual dresses. whether you’re heading out with friends or styling a laid-back look, these sneakers deliver comfort, versatility, and trend-forward design in one perfect pair.",
     sizes: [6, 7, 8, 9, 10],
-    soldSizes: [6, 7, 9, 10] },
+    soldSizes: [6, 8, 9, 10] },
     ],
   },
   {
